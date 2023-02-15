@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&family=Ubuntu&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.open-sans {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.ubuntu {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+.text-blue {
+    color: #3282AD;
+}
+
+
+/* Header Background Image */
+
+.header-bg-btn {
+    display: flex;
+    background: rgba(124, 212, 41, 0.977);
+    border-radius: 25px;
+    color: #ffff;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    border: none;
+    text-decoration: none;
+}
+
+/* MAIN SECTION */
+
+.input-box {
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 100%;
+}
+
+.container-fluid .container .row .input-box label {
+    margin-top: -12px;
+}
+
+.main {
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.btn-add {
+    border: none;
+    outline: none;
+    background-color: #ffff;
+}
+
+.btn-flight {
+    background: rgba(124, 212, 41, 0.977);
+    color: #ffff;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+/* PACKAGE SECTION */
+
+.btn-blue {
+    background-color: #3282AD;
+    color: #ffff;
+}
+
+.btn-blue:hover {
+    background-color: #3282AD;
+    color: #ffff;
+}
+
+.owl-prev span {
+    font-size: 40px;
+}
+
+.owl-next span {
+    font-size: 40px;
+}
+
+.owl-theme .owl-nav [class*=owl-]:hover {
+    background-color: #ffff;
+    color: #000;
+}
+
+/* Island Section  */
+
+.island {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
+    gap: 20px;
+    padding: 20px 0px;
+}
+
+.island-box .image-box {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.explore-btn a {
+    background-color: #31c82c;
+    font-size: 16px;
+    border-radius: 50px;
+    font-weight: 700;
+    width: 180px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* CONTACT SECTION */
+
+.contact {
+    background-color: #49b8d7;
+    border-radius: 15px;
+    color: #ffff;
+}
+
+.map-image {
+    width: 400px;
+    height: 200px;
+    opacity: 0.7;
+}
+
+.btn-contact {
+    margin: auto;
+    background-color: #ffff;
+    height: 50px;
+    width: 60%;
+}
+
+.btn-contact:hover {
+    background-color: #ffff;
+    color: #000;
+}
+
+/* LastMain Section */
+
+.last-main {
+    background-color: #41A5C1;
+    margin-top: 10px;
+    padding: 10px 0px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.last-main-content {
+    padding: 15px;
+}
+
+
+.last-main-content ul li:hover {
+    color: #ffa600;
+}
+
+
+.last-main-content ul li a:hover {
+    color: #ffa600;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.last-main-content ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.last-main-content ul li a i {
+    margin: 0px 20px;
+}
+
+/* footer Section */
+
+.footer {
+    background-color: #41A5C1;
+}
+
+.footer-content {
+
+    background-color: #41A5C1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-content-icon a i {
+    color: #fff;
+    padding: 10px;
+}
+
+.footer-content-icon a i:hover {
+    color: #ffa600;
+    transform: rotate(360deg);
+    transition: all 0.8s ease-in-out;
+}

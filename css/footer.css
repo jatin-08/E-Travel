@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&family=Ubuntu&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* utiltiy classes */
+
+.open-sans {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.ubuntu {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+.text-blue {
+    color: #3282AD;
+}
+
+.bg-green {
+    background-color: #72ff68d4;
+}
+
+
+
+/* FOOTER SECTION */
+
+.logoIcon span:nth-child(1) {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(124, 212, 41, 0.977);
+    line-height: 38px;
+}

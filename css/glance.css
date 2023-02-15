@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&family=Ubuntu&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.open-sans {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.ubuntu {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+.text-blue {
+    color: #3282AD;
+}
+
+
+
+/* HEADER SECTION */
+
+.header {
+    background-image: url('../Assests/image/bg3.png');
+    width: 100%;
+    height: 700px;
+}
+
+.header-logo {
+    padding-top: 15px;
+    width: 50%;
+}
+
+.header-right-section {
+    margin-top: 10px;
+}
+
+.header-right-section a {
+    text-decoration: none;
+    color: rgb(4, 131, 199);
+    font-weight: 500;
+}
+
+.header-right-section button {
+    background: rgba(5, 100, 153, 0.8);
+    border-radius: 25px;
+    padding: 15px 15px;
+    width: 50%;
+    border: none;
+}
+
+.sub-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #D2F4FF;
+    border-radius: 25px;
+    padding: 10px 15px;
+    font-size: 20px;
+    width: 80%;
+}
+
+.header-text {
+    font-size: 25px;
+    padding-top: 5px;
+}
+
+.sub-header span {
+    color: rgb(4, 131, 199);
+    font-size: 30px;
+
+}
+
+.header-image {
+    position: absolute;
+    top: 150px;
+    left: 60%;
+    width: 35%;
+    border-radius: 180px;
+}
+
+.header-btn {
+    color: #3282AD;
+    background-color: #ffff;
+    border: 1px solid #3282AD;
+    border-radius: 10px;
+    width: 40%;
+    padding: 10px;
+}
+
+/* MAIN SECTION */
+
+.main-text {
+    margin-top: -40px;
+    font-size: 15px;
+    color: #ffff;
+    text-align: center;
+}
+
+.main-image {
+    height: 520px;
+    width: 450px;
+}
+
+.main-btn {
+    background-color: #3282AD;
+    border-radius: 5px;
+}
+
+.main-btn:hover {
+    background-color: #266a8e;
+    color: #ffff;
+}
+
+.main-activity {
+    border: 1px solid #808080;
+    background-color: #c6ebffbc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-activity .col-md-2 {
+    margin: 50px 0px;
+    font-size: 20px;
+}
+
+.main-activity .col-md-2 span {
+    font-size: 50px;
+}
+
+.last-main {
+    background-color: #41A5C1;
+    margin-top: 10px;
+    padding: 10px 0px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.last-main-content {
+    padding: 15px;
+}
+
+
+.last-main-content ul li:hover {
+    color: #ffa600;
+}
+
+
+.last-main-content ul li a:hover {
+    color: #ffa600;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.last-main-content ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.last-main-content ul li a i {
+    margin: 0px 20px;
+}
+
+/* footer Section */
+
+.footer {
+    background-color: #41A5C1;
+}
+
+.footer-content {
+
+    background-color: #41A5C1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-content-icon a i {
+    color: #fff;
+    padding: 10px;
+}
+
+.footer-content-icon a i:hover {
+    color: #ffa600;
+    transform: rotate(360deg);
+    transition: all 0.8s ease-in-out;
+}

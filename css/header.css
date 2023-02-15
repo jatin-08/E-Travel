@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&family=Ubuntu&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* utiltiy classes */
+
+.open-sans {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.ubuntu {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+.text-blue {
+    color: #3282AD;
+}
+
+.bg-blue {
+    background-color: #c9ecff;
+}
+
+
+
+/* HEADER SECTION */
+
+.logoIcon span:nth-child(1) {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(124, 212, 41, 0.977);
+    line-height: 38px;
+}
+
+.nav-link:hover {
+    color: #2f2d2d;
+}
+
+.signin-btn {
+    background: rgba(124, 212, 41, 0.977);
+    border-radius: 25px;
+    color: #ffff;
+    font-weight: 500;
+    width: 100px;
+    border: none;
+}
+
+.signin-btn:hover {
+    background: rgba(119, 210, 35, 0.977);
+    color: #ffff;
+}
+
+.navbar-toggler {
+    border: none;
+    outline: none;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.navbar-toggler-icon {
+    filter: invert(0.3);
+}
