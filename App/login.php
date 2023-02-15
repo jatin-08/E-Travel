@@ -2,7 +2,7 @@
 
 <?php
 
-include("connection.php");
+include("../App\connection.php");
 include("../App/login-UI.php");
 
 
@@ -16,11 +16,9 @@ if (isset($_POST['signin'])) {
         $query = "SELECT * FROM user_info WHERE email = '$email' && password = '$password'";
         $data = mysqli_query($connection, $query);
         if ($data) {
-            ?>
-
-            <meta http-equiv="refresh" content="0; url = http://localhost/placement%20project/Public/index.php" />
-
-            <?php
+            // header("../Public\index.php");
+            // exit;
+            echo "<script>alert('You login Sucessfully!')</script>";
         } else {
             echo "<script>alert('You not login Sucessfully!')</script>";
         }

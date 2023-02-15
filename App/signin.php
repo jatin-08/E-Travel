@@ -1,8 +1,6 @@
 <?php
 
-
-include("connection.php");
-include("../App/signin-UI.php");
+require("connection.php");
 
 if (isset($_POST['signup'])) {
 

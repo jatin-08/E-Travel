@@ -1,7 +1,6 @@
 <?php
 
 include("../App\header.php");
-include("../App/links.php");
 
 ?>
 
@@ -40,19 +39,19 @@ include("../App/links.php");
                                 <form action="#" autocomplete="off" method="post">
 
                                     <div class="mb-3">
-                                        <label for="exampleFormControlInput1" class="form-label">Name</label>
+                                        <label class="form-label">Name</label>
                                         <input type="text" name="name" class="form-control"
-                                            id="exampleFormControlInput1" placeholder="Enter your name">
+                                            placeholder="Enter your name">
                                     </div>
                                     <div class="mb-3">
-                                        <label for="exampleFormControlInput1" class="form-label">Email</label>
-                                        <input type="email" name="emai" class="form-control"
-                                            id="exampleFormControlInput1" placeholder="abcd123@gmail.com">
+                                        <label class="form-label">Email</label>
+                                        <input type="email" name="email" class="form-control"
+                                            placeholder="abcd123@gmail.com">
                                     </div>
                                     <div class="mb-3">
-                                        <label for="exampleFormControlInput1" class="form-label">Password</label>
+                                        <label class="form-label">Password</label>
                                         <input type="password" name="password" class="form-control"
-                                            id="exampleFormControlInput1" placeholder="At least 6 characters">
+                                            placeholder="At least 6 characters">
                                     </div>
                                     <p class="card-text">Already have an account?<a href="../App\login-UI.php"
                                             class="text-decoration-none">Sign in</a></p>
