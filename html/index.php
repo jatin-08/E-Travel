@@ -27,8 +27,6 @@ include('../html\header.php');
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link rel="shortcut icon" href="../Assests\image\gol-logo.png" type="image/x-icon">
     <link rel="stylesheet" href="../css/index.css">
-    <link rel="stylesheet" href="../css/header.css">
-    <!-- <link rel="stylesheet" href="../css/responsive.css"> -->
 </head>
 
 <body class="bg-light">
