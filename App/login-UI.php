@@ -1,8 +1,7 @@
 <?php
 
-include("../App/links.php");
 include("../App/header.php");
-
+include("../App/login.php");
 
 ?>
 
@@ -41,7 +40,7 @@ include("../App/header.php");
 
                                     <div class="mb-3">
                                         <label for="exampleFormControlInput1" class="form-label">Email</label>
-                                        <input type="email" name="eamil" class="form-control"
+                                        <input type="email" name="email" class="form-control"
                                             id="exampleFormControlInput1" placeholder="abcd123@gmail.com" required>
                                     </div>
                                     <div class="mb-3">

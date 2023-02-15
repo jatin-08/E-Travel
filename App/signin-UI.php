@@ -1,6 +1,7 @@
 <?php
 
 include("../App\header.php");
+include("../App/signin.php");
 
 ?>
 
