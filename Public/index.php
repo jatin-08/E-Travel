@@ -1,5 +1,7 @@
 <?php
-include('../html\header.php');
+
+include('../App\header.php');
+include("../App\links.php");
 
 ?>
 
@@ -14,19 +16,6 @@ include('../html\header.php');
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GOL - Travel Where You Want In The Whole World.</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
-        </script>
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.green.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css">
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-    <link rel="shortcut icon" href="../Assests\image\gol-logo.png" type="image/x-icon">
-    <link rel="stylesheet" href="../css/index.css">
 </head>
 
 <body class="bg-light">
@@ -46,7 +35,7 @@ include('../html\header.php');
                 </div>
             </div>
             <div class="col-lg-6 order-lg-last order-first col-12">
-                <img src="../Assests\image\image 1.jpg" class="w-100" alt="image">
+                <img src="../Public\Assests\image\image 1.jpg" class="w-100" alt="image">
             </div>
         </div>
     </section>
@@ -105,7 +94,8 @@ include('../html\header.php');
             <div class="island">
                 <div class="island-box rounded card border-0 shadow">
                     <div class="image-box rounded">
-                        <img src="../Assests\image\images (17) 1 3.png" class="rounded-top img-fluid" alt="image">
+                        <img src="../Public/Assests\image\images (17) 1 3.png" class="rounded-top img-fluid"
+                            alt="image">
                     </div>
                     <div class="p-3">
                         <div class="d-flex align-item-center justify-content-between">
@@ -121,7 +111,8 @@ include('../html\header.php');
                 </div>
                 <div class="island-box rounded card border-0 shadow">
                     <div class="image-box rounded">
-                        <img src="../Assests\image\images (17) 1 3.png" class="rounded-top img-fluid" alt="image">
+                        <img src="../Public/Assests\image\images (17) 1 4.png" class="rounded-top img-fluid"
+                            alt="image">
                     </div>
                     <div class="p-3">
                         <div class="d-flex align-item-center justify-content-between">
@@ -137,7 +128,8 @@ include('../html\header.php');
                 </div>
                 <div class="island-box rounded card border-0 shadow">
                     <div class="image-box rounded">
-                        <img src="../Assests\image\images (17) 1 3.png" class="rounded-top img-fluid" alt="image">
+                        <img src="../Public/Assests\image\images (17) 1 5.png" class="rounded-top img-fluid"
+                            alt="image">
                     </div>
                     <div class="p-3">
                         <div class="d-flex align-item-center justify-content-between">
@@ -153,7 +145,8 @@ include('../html\header.php');
                 </div>
                 <div class="island-box rounded card border-0 shadow">
                     <div class="image-box rounded">
-                        <img src="../Assests\image\images (17) 1 3.png" class="rounded-top img-fluid" alt="image">
+                        <img src="../Public/Assests\image\images (17) 1 6.png" class="rounded-top img-fluid"
+                            alt="image">
                     </div>
                     <div class="p-3">
                         <div class="d-flex align-item-center justify-content-between">
@@ -169,7 +162,7 @@ include('../html\header.php');
                 </div>
                 <div class="island-box rounded card border-0 shadow">
                     <div class="image-box rounded">
-                        <img src="../Assests\image\images (17) 1 3.png" class="rounded-top img-fluid" alt="image">
+                        <img src="../Public/Assests\image\images (17) 2.png" class="rounded-top img-fluid" alt="image">
                     </div>
                     <div class="p-3">
                         <div class="d-flex align-item-center justify-content-between">
@@ -185,7 +178,7 @@ include('../html\header.php');
                 </div>
                 <div class="island-box rounded card border-0 shadow">
                     <div class="image-box rounded">
-                        <img src="../Assests\image\images (17) 1 3.png" class="rounded-top img-fluid" alt="image">
+                        <img src="../Public/Assests\image\images (17) 1.png" class="rounded-top img-fluid" alt="image">
                     </div>
                     <div class="p-3">
                         <div class="d-flex align-item-center justify-content-between">
@@ -278,11 +271,6 @@ include('../html\header.php');
 
     </footer> -->
 
-
-    <script src="https://code.jquery.com/jquery-3.6.3.js"
-        integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
-    <script src="../javascript\index.js"></script>
 </body>
 
 </html>

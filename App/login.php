@@ -1,6 +1,9 @@
+<!-- LOGIN BACKEND SECTION -->
+
 <?php
+
 include("connection.php");
-include("../html/login.php");
+include("../App/login-UI.php");
 
 
 if (isset($_POST['signin'])) {
@@ -15,7 +18,7 @@ if (isset($_POST['signin'])) {
         if ($data) {
             ?>
 
-            <meta http-equiv="refresh" content="0; url = http://localhost/placement%20project/html/" />
+            <meta http-equiv="refresh" content="0; url = http://localhost/placement%20project/Public/index.php" />
 
             <?php
         } else {

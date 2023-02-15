@@ -2,7 +2,7 @@
 
 
 include("connection.php");
-include("../html/signin.php");
+include("../App/signin-UI.php");
 
 if (isset($_POST['signup'])) {
 
@@ -18,7 +18,7 @@ if (isset($_POST['signup'])) {
 
         ?>
 
-        <meta http-equiv="refresh" content="0; url = http://localhost/placement%20project/html/" />
+        <meta http-equiv="refresh" content="0; url = http://localhost/placement%20project/Public/index.php" />
 
         <?php
 
