@@ -77,11 +77,252 @@ include("../App\links.php");
 
     <!-- PACKAGES SECTION -->
 
-
+    <section class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1 class="text-center poppins fw-bold py-3">Best Packages For You</h1>
+                    <p class="poppins w-50 m-auto fs-6 text-center pb-4">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel, vitae facilis. Quaerat dolore
+                    </p>
+                </div>
+            </div>
+            <div class="row owl-carousel owl-theme pt-5">
+                <div class="item island-box rounded card border">
+                    <div class="">
+                        <div class="image-box rounded">
+                            <img src="../Public/Assests\image\photo1.png" class="rounded-top img-fluid" alt="image">
+                        </div>
+                        <div class="p-3">
+                            <div class="d-flex align-item-center justify-content-between">
+                                <h1 class="fw-bold fs-5">Goa</h1>
+                                <span>4.5</span>
+                            </div>
+                        </div>
+                        <p class="poppins card-text px-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            Commodi,
+                            eius.</p>
+                        <div class="explore-btn d-flex justify-content-center mb-3">
+                            <a href="#" class="text-decoration-none text-white">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item island-box rounded card border">
+                    <div class="">
+                        <div class="image-box rounded">
+                            <img src="../Public/Assests\image\photo1.png" class="rounded-top img-fluid" alt="image">
+                        </div>
+                        <div class="p-3">
+                            <div class="d-flex align-item-center justify-content-between">
+                                <h1 class="fw-bold fs-5">Goa</h1>
+                                <span>4.5</span>
+                            </div>
+                        </div>
+                        <p class="poppins card-text px-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            Commodi,
+                            eius.</p>
+                        <div class="explore-btn d-flex justify-content-center mb-3">
+                            <a href="#" class="text-decoration-none text-white">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item island-box rounded card border">
+                    <div class="">
+                        <div class="image-box rounded">
+                            <img src="../Public/Assests\image\photo1.png" class="rounded-top img-fluid" alt="image">
+                        </div>
+                        <div class="p-3">
+                            <div class="d-flex align-item-center justify-content-between">
+                                <h1 class="fw-bold fs-5">Goa</h1>
+                                <span>4.5</span>
+                            </div>
+                        </div>
+                        <p class="poppins card-text px-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            Commodi,
+                            eius.</p>
+                        <div class="explore-btn d-flex justify-content-center mb-3">
+                            <a href="#" class="text-decoration-none text-white">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item island-box rounded card border">
+                    <div class="">
+                        <div class="image-box rounded">
+                            <img src="../Public/Assests\image\photo1.png" class="rounded-top img-fluid" alt="image">
+                        </div>
+                        <div class="p-3">
+                            <div class="d-flex align-item-center justify-content-between">
+                                <h1 class="fw-bold fs-5">Goa</h1>
+                                <span>4.5</span>
+                            </div>
+                        </div>
+                        <p class="poppins card-text px-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            Commodi,
+                            eius.</p>
+                        <div class="explore-btn d-flex justify-content-center mb-3">
+                            <a href="#" class="text-decoration-none text-white">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item island-box rounded card border">
+                    <div class="">
+                        <div class="image-box rounded">
+                            <img src="../Public/Assests\image\photo1.png" class="rounded-top img-fluid" alt="image">
+                        </div>
+                        <div class="p-3">
+                            <div class="d-flex align-item-center justify-content-between">
+                                <h1 class="fw-bold fs-5">Goa</h1>
+                                <span>4.5</span>
+                            </div>
+                        </div>
+                        <p class="poppins card-text px-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            Commodi,
+                            eius.</p>
+                        <div class="explore-btn d-flex justify-content-center mb-3">
+                            <a href="#" class="text-decoration-none text-white">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item island-box rounded card border">
+                    <div class="">
+                        <div class="image-box rounded">
+                            <img src="../Public/Assests\image\photo1.png" class="rounded-top img-fluid" alt="image">
+                        </div>
+                        <div class="p-3">
+                            <div class="d-flex align-item-center justify-content-between">
+                                <h1 class="fw-bold fs-5">Goa</h1>
+                                <span>4.5</span>
+                            </div>
+                        </div>
+                        <p class="poppins card-text px-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            Commodi,
+                            eius.</p>
+                        <div class="explore-btn d-flex justify-content-center mb-3">
+                            <a href="#" class="text-decoration-none text-white">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item island-box rounded card border">
+                    <div class="">
+                        <div class="image-box rounded">
+                            <img src="../Public/Assests\image\photo1.png" class="rounded-top img-fluid" alt="image">
+                        </div>
+                        <div class="p-3">
+                            <div class="d-flex align-item-center justify-content-between">
+                                <h1 class="fw-bold fs-5">Goa</h1>
+                                <span>4.5</span>
+                            </div>
+                        </div>
+                        <p class="poppins card-text px-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            Commodi,
+                            eius.</p>
+                        <div class="explore-btn d-flex justify-content-center mb-3">
+                            <a href="#" class="text-decoration-none text-white">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item island-box rounded card border">
+                    <div class="">
+                        <div class="image-box rounded">
+                            <img src="../Public/Assests\image\photo1.png" class="rounded-top img-fluid" alt="image">
+                        </div>
+                        <div class="p-3">
+                            <div class="d-flex align-item-center justify-content-between">
+                                <h1 class="fw-bold fs-5">Goa</h1>
+                                <span>4.5</span>
+                            </div>
+                        </div>
+                        <p class="poppins card-text px-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            Commodi,
+                            eius.</p>
+                        <div class="explore-btn d-flex justify-content-center mb-3">
+                            <a href="#" class="text-decoration-none text-white">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item island-box rounded card border">
+                    <div class="">
+                        <div class="image-box rounded">
+                            <img src="../Public/Assests\image\photo1.png" class="rounded-top img-fluid" alt="image">
+                        </div>
+                        <div class="p-3">
+                            <div class="d-flex align-item-center justify-content-between">
+                                <h1 class="fw-bold fs-5">Goa</h1>
+                                <span>4.5</span>
+                            </div>
+                        </div>
+                        <p class="poppins card-text px-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            Commodi,
+                            eius.</p>
+                        <div class="explore-btn d-flex justify-content-center mb-3">
+                            <a href="#" class="text-decoration-none text-white">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item island-box rounded card border">
+                    <div class="">
+                        <div class="image-box rounded">
+                            <img src="../Public/Assests\image\photo1.png" class="rounded-top img-fluid" alt="image">
+                        </div>
+                        <div class="p-3">
+                            <div class="d-flex align-item-center justify-content-between">
+                                <h1 class="fw-bold fs-5">Goa</h1>
+                                <span>4.5</span>
+                            </div>
+                        </div>
+                        <p class="poppins card-text px-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            Commodi,
+                            eius.</p>
+                        <div class="explore-btn d-flex justify-content-center mb-3">
+                            <a href="#" class="text-decoration-none text-white">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item island-box rounded card border">
+                    <div class="">
+                        <div class="image-box rounded">
+                            <img src="../Public/Assests\image\photo1.png" class="rounded-top img-fluid" alt="image">
+                        </div>
+                        <div class="p-3">
+                            <div class="d-flex align-item-center justify-content-between">
+                                <h1 class="fw-bold fs-5">Goa</h1>
+                                <span>4.5</span>
+                            </div>
+                        </div>
+                        <p class="poppins card-text px-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            Commodi,
+                            eius.</p>
+                        <div class="explore-btn d-flex justify-content-center mb-3">
+                            <a href="#" class="text-decoration-none text-white">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item island-box rounded card border">
+                    <div class="">
+                        <div class="image-box rounded">
+                            <img src="../Public/Assests\image\photo1.png" class="rounded-top img-fluid" alt="image">
+                        </div>
+                        <div class="p-3">
+                            <div class="d-flex align-item-center justify-content-between">
+                                <h1 class="fw-bold fs-5">Goa</h1>
+                                <span>4.5</span>
+                            </div>
+                        </div>
+                        <p class="poppins card-text px-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            Commodi,
+                            eius.</p>
+                        <div class="explore-btn d-flex justify-content-center mb-3">
+                            <a href="#" class="text-decoration-none text-white">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- ISLAND SECTION -->
 
-    <section class="container-fluid">
+    <section class="container-fluid mt-5 pt-5">
         <div class="container">
             <div class="row">
                 <div class="col">
@@ -216,6 +457,243 @@ include("../App\links.php");
     </section> -->
 
     <!-- CLIENT SECTION -->
+
+    <section class="container-fluid mt-5 pt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1 class="text-center poppins fw-bold py-3">Our Client Reviews</h1>
+                    <p class="poppins w-50 m-auto fs-6 text-center pb-4">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel, vitae facilis. Quaerat dolore
+                    </p>
+                </div>
+            </div>
+            <div class="row owl-carousel owl-theme pt-5">
+                <div class="item w-75 h-50 card border">
+                    <div class="client-img">
+                        <img src="../Public/Assests\image\client-img-1.jpg" alt="image">
+                    </div>
+                    <h6 class="poppins card-title pt-2 fs-5 text-center">Jatin Yadav</h6>
+                    <p class="poppins card-text px-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        Commodi,
+                        eius.</p>
+                    <div class="explore-btn d-flex justify-content-center mb-3">
+                        <a href="#" class="text-decoration-none text-white">Book Now</a>
+                    </div>
+                </div>
+                <div class="item island-box rounded card border">
+                    <div class="">
+                        <div class="image-box rounded">
+                            <img src="../Public/Assests\image\photo1.png" class="rounded-top img-fluid" alt="image">
+                        </div>
+                        <div class="p-3">
+                            <div class="d-flex align-item-center justify-content-between">
+                                <h1 class="fw-bold fs-5">Goa</h1>
+                                <span>4.5</span>
+                            </div>
+                        </div>
+                        <p class="poppins card-text px-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            Commodi,
+                            eius.</p>
+                        <div class="explore-btn d-flex justify-content-center mb-3">
+                            <a href="#" class="text-decoration-none text-white">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item island-box rounded card border">
+                    <div class="">
+                        <div class="image-box rounded">
+                            <img src="../Public/Assests\image\photo1.png" class="rounded-top img-fluid" alt="image">
+                        </div>
+                        <div class="p-3">
+                            <div class="d-flex align-item-center justify-content-between">
+                                <h1 class="fw-bold fs-5">Goa</h1>
+                                <span>4.5</span>
+                            </div>
+                        </div>
+                        <p class="poppins card-text px-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            Commodi,
+                            eius.</p>
+                        <div class="explore-btn d-flex justify-content-center mb-3">
+                            <a href="#" class="text-decoration-none text-white">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item island-box rounded card border">
+                    <div class="">
+                        <div class="image-box rounded">
+                            <img src="../Public/Assests\image\photo1.png" class="rounded-top img-fluid" alt="image">
+                        </div>
+                        <div class="p-3">
+                            <div class="d-flex align-item-center justify-content-between">
+                                <h1 class="fw-bold fs-5">Goa</h1>
+                                <span>4.5</span>
+                            </div>
+                        </div>
+                        <p class="poppins card-text px-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            Commodi,
+                            eius.</p>
+                        <div class="explore-btn d-flex justify-content-center mb-3">
+                            <a href="#" class="text-decoration-none text-white">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item island-box rounded card border">
+                    <div class="">
+                        <div class="image-box rounded">
+                            <img src="../Public/Assests\image\photo1.png" class="rounded-top img-fluid" alt="image">
+                        </div>
+                        <div class="p-3">
+                            <div class="d-flex align-item-center justify-content-between">
+                                <h1 class="fw-bold fs-5">Goa</h1>
+                                <span>4.5</span>
+                            </div>
+                        </div>
+                        <p class="poppins card-text px-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            Commodi,
+                            eius.</p>
+                        <div class="explore-btn d-flex justify-content-center mb-3">
+                            <a href="#" class="text-decoration-none text-white">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item island-box rounded card border">
+                    <div class="">
+                        <div class="image-box rounded">
+                            <img src="../Public/Assests\image\photo1.png" class="rounded-top img-fluid" alt="image">
+                        </div>
+                        <div class="p-3">
+                            <div class="d-flex align-item-center justify-content-between">
+                                <h1 class="fw-bold fs-5">Goa</h1>
+                                <span>4.5</span>
+                            </div>
+                        </div>
+                        <p class="poppins card-text px-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            Commodi,
+                            eius.</p>
+                        <div class="explore-btn d-flex justify-content-center mb-3">
+                            <a href="#" class="text-decoration-none text-white">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item island-box rounded card border">
+                    <div class="">
+                        <div class="image-box rounded">
+                            <img src="../Public/Assests\image\photo1.png" class="rounded-top img-fluid" alt="image">
+                        </div>
+                        <div class="p-3">
+                            <div class="d-flex align-item-center justify-content-between">
+                                <h1 class="fw-bold fs-5">Goa</h1>
+                                <span>4.5</span>
+                            </div>
+                        </div>
+                        <p class="poppins card-text px-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            Commodi,
+                            eius.</p>
+                        <div class="explore-btn d-flex justify-content-center mb-3">
+                            <a href="#" class="text-decoration-none text-white">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item island-box rounded card border">
+                    <div class="">
+                        <div class="image-box rounded">
+                            <img src="../Public/Assests\image\photo1.png" class="rounded-top img-fluid" alt="image">
+                        </div>
+                        <div class="p-3">
+                            <div class="d-flex align-item-center justify-content-between">
+                                <h1 class="fw-bold fs-5">Goa</h1>
+                                <span>4.5</span>
+                            </div>
+                        </div>
+                        <p class="poppins card-text px-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            Commodi,
+                            eius.</p>
+                        <div class="explore-btn d-flex justify-content-center mb-3">
+                            <a href="#" class="text-decoration-none text-white">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item island-box rounded card border">
+                    <div class="">
+                        <div class="image-box rounded">
+                            <img src="../Public/Assests\image\photo1.png" class="rounded-top img-fluid" alt="image">
+                        </div>
+                        <div class="p-3">
+                            <div class="d-flex align-item-center justify-content-between">
+                                <h1 class="fw-bold fs-5">Goa</h1>
+                                <span>4.5</span>
+                            </div>
+                        </div>
+                        <p class="poppins card-text px-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            Commodi,
+                            eius.</p>
+                        <div class="explore-btn d-flex justify-content-center mb-3">
+                            <a href="#" class="text-decoration-none text-white">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item island-box rounded card border">
+                    <div class="">
+                        <div class="image-box rounded">
+                            <img src="../Public/Assests\image\photo1.png" class="rounded-top img-fluid" alt="image">
+                        </div>
+                        <div class="p-3">
+                            <div class="d-flex align-item-center justify-content-between">
+                                <h1 class="fw-bold fs-5">Goa</h1>
+                                <span>4.5</span>
+                            </div>
+                        </div>
+                        <p class="poppins card-text px-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            Commodi,
+                            eius.</p>
+                        <div class="explore-btn d-flex justify-content-center mb-3">
+                            <a href="#" class="text-decoration-none text-white">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item island-box rounded card border">
+                    <div class="">
+                        <div class="image-box rounded">
+                            <img src="../Public/Assests\image\photo1.png" class="rounded-top img-fluid" alt="image">
+                        </div>
+                        <div class="p-3">
+                            <div class="d-flex align-item-center justify-content-between">
+                                <h1 class="fw-bold fs-5">Goa</h1>
+                                <span>4.5</span>
+                            </div>
+                        </div>
+                        <p class="poppins card-text px-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            Commodi,
+                            eius.</p>
+                        <div class="explore-btn d-flex justify-content-center mb-3">
+                            <a href="#" class="text-decoration-none text-white">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item island-box rounded card border">
+                    <div class="">
+                        <div class="image-box rounded">
+                            <img src="../Public/Assests\image\photo1.png" class="rounded-top img-fluid" alt="image">
+                        </div>
+                        <div class="p-3">
+                            <div class="d-flex align-item-center justify-content-between">
+                                <h1 class="fw-bold fs-5">Goa</h1>
+                                <span>4.5</span>
+                            </div>
+                        </div>
+                        <p class="poppins card-text px-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            Commodi,
+                            eius.</p>
+                        <div class="explore-btn d-flex justify-content-center mb-3">
+                            <a href="#" class="text-decoration-none text-white">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
     <!-- last main SECTION -->
 
