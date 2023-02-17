@@ -1,6 +1,6 @@
 <?php
 
-require("connection.php");
+include("connection.php");
 
 if (isset($_POST['signup'])) {
 
