@@ -1,7 +1,5 @@
 <?php
 
-session_start();
-
 include("../App/header.php");
 include("../App/login.php");
 
@@ -38,7 +36,7 @@ include("../App/login.php");
                             <h4 class="card-header border-0 bg-white text-center">Sign In
                             </h4>
                             <div class="card-body">
-                                <form action=" <?php echo $_SERVER['PHP_SELF']; ?> " autocomplete="off" method="post">
+                                <form action="#" autocomplete="off" method="post">
 
                                     <div class="mb-3">
                                         <label for="exampleFormControlInput1" class="form-label">Email</label>
