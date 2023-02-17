@@ -48,7 +48,7 @@ include("../App/login.php");
                                         <input type="password" name="password" class="form-control"
                                             id="exampleFormControlInput1" placeholder="At least 6 characters" required>
                                     </div>
-                                    <p class="card-text">New User?<a href="../App\signin-UI.php"
+                                    <p class="card-text">New User?<a href="http://localhost/E-Travel/App/signin-UI.php"
                                             class="text-decoration-none">Sign Up</a></p>
                                     <p class="card-text">By creating an account or logging in, you agree to E-Travel <a
                                             href="#" class="text-decoration-none">Conditions

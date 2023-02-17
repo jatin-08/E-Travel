@@ -21,8 +21,7 @@ include("../App\links.php");
 
     <nav class="navbar navbar-expand-lg bg-white shadow-sm sticky-top">
         <div class="container-fluid">
-            <a class="navbar-brand d-flex align-item-center logoIcon"
-                href="http://localhost/placement%20project/Public/index.php">
+            <a class="navbar-brand d-flex align-item-center logoIcon" href="http://localhost/E-Travel/Public/index.php">
                 <span class="rounded-circle text-center text-white fw-bold">E</span>
                 <span class="poppins px-2 fw-bold mt-2">Travel</span>
             </a>
@@ -34,7 +33,7 @@ include("../App\links.php");
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item open-sans">
                         <a class="nav-link text-dark" aria-current="page"
-                            href="http://localhost/placement%20project/Public/index.php">Home</a>
+                            href="http://localhost/E-Travel/Public/index.php">Home</a>
                     </li>
                     <li class="nav-item open-sans">
                         <a class="nav-link text-dark" href="#">Find Reservation</a>
@@ -55,7 +54,7 @@ include("../App\links.php");
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item open-sans">
                         <a class="nav-link text-center signin-btn ubuntu text-white"
-                            href="http://localhost/placement%20project/App/login-UI.php">Sign In</a>
+                            href="http://localhost/E-Travel/App/login-UI.php">Sign In</a>
                     </li>
                 </ul>
             </div>

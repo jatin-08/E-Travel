@@ -17,7 +17,7 @@ if (isset($_POST['signin'])) {
         if ($data) {
             ?>
 
-            <meta http-equiv="refresh" content="0; url = http://localhost/placement%20project/Public/index.php" />
+            <meta http-equiv="refresh" content="0; url = http://localhost/E-Travel/Public/index.php" />
 
             <?php
         } else {

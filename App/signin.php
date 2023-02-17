@@ -16,7 +16,7 @@ if (isset($_POST['signup'])) {
 
         ?>
 
-        <meta http-equiv="refresh" content="0; url = http://localhost/placement%20project/App/login-UI.php" />
+        <meta http-equiv="refresh" content="0; url = http://localhost/E-Travel/App/login-UI.php" />
 
         <?php
 
