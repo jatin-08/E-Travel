@@ -468,226 +468,201 @@ include("../App\links.php");
                     </p>
                 </div>
             </div>
-            <div class="row owl-carousel owl-theme pt-5">
-                <div class="item w-75 h-50 card border">
-                    <div class="client-img">
-                        <img src="../Public/Assests\image\client-img-1.jpg" alt="image">
-                    </div>
-                    <h6 class="poppins card-title pt-2 fs-5 text-center">Jatin Yadav</h6>
-                    <p class="poppins card-text px-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                        Commodi,
-                        eius.</p>
-                    <div class="explore-btn d-flex justify-content-center mb-3">
-                        <a href="#" class="text-decoration-none text-white">Book Now</a>
-                    </div>
-                </div>
-                <div class="item island-box rounded card border">
-                    <div class="">
-                        <div class="image-box rounded">
-                            <img src="../Public/Assests\image\photo1.png" class="rounded-top img-fluid" alt="image">
-                        </div>
-                        <div class="p-3">
-                            <div class="d-flex align-item-center justify-content-between">
-                                <h1 class="fw-bold fs-5">Goa</h1>
-                                <span>4.5</span>
+            <div class="owl-carousel owl-theme owl-loaded owl-drag pt-5">
+                <div class="owl-stage-outer">
+                    <div class="owl-stage"
+                        style="transform: translate3d(-1130px,0px,0px); transition: all 0s ease 0s; width: 3950px;">
+                        <div class="owl-item active" style="width: 275px; margin-right: 10px;">
+                            <div class="item client border shadow m-2">
+                                <div class="client-img">
+                                    <img src="../Public\Assests\image\client-img-1.jpg" alt="imgae">
+                                </div>
+                                <span class="text-center open-sans d-block fw-bold">Jatin Yadav</span>
+                                <p class="text-center open-sans mt-2">Lorem, ipsum dolor sit amet consectetur
+                                    adipisicing
+                                    elit. Illo, laudantium.</p>
+                                <ul class="list-unstyled d-flex justify-content-center pe-4 mt-3">
+                                    <li>
+                                        <span class="material-symbols-outlined">
+                                            grade
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span class="material-symbols-outlined">
+                                            grade
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span class="material-symbols-outlined">
+                                            grade
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span class="material-symbols-outlined">
+                                            grade
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span class="material-symbols-outlined">
+                                            grade
+                                        </span>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
-                        <p class="poppins card-text px-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                            Commodi,
-                            eius.</p>
-                        <div class="explore-btn d-flex justify-content-center mb-3">
-                            <a href="#" class="text-decoration-none text-white">Book Now</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="item island-box rounded card border">
-                    <div class="">
-                        <div class="image-box rounded">
-                            <img src="../Public/Assests\image\photo1.png" class="rounded-top img-fluid" alt="image">
-                        </div>
-                        <div class="p-3">
-                            <div class="d-flex align-item-center justify-content-between">
-                                <h1 class="fw-bold fs-5">Goa</h1>
-                                <span>4.5</span>
+                        <div class="owl-item active" style="width: 275px; margin-right: 10px;">
+                            <div class="item client border shadow m-2">
+                                <div class="client-img">
+                                    <img src="../Public\Assests\image\client-img-1.jpg" alt="imgae">
+                                </div>
+                                <span class="text-center open-sans d-block fw-bold">Jatin Yadav</span>
+                                <p class="text-center open-sans mt-2">Lorem, ipsum dolor sit amet consectetur
+                                    adipisicing
+                                    elit. Illo, laudantium.</p>
+                                <ul class="list-unstyled d-flex justify-content-center pe-4 mt-3">
+                                    <li>
+                                        <span class="material-symbols-outlined">
+                                            grade
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span class="material-symbols-outlined">
+                                            grade
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span class="material-symbols-outlined">
+                                            grade
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span class="material-symbols-outlined">
+                                            grade
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span class="material-symbols-outlined">
+                                            grade
+                                        </span>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
-                        <p class="poppins card-text px-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                            Commodi,
-                            eius.</p>
-                        <div class="explore-btn d-flex justify-content-center mb-3">
-                            <a href="#" class="text-decoration-none text-white">Book Now</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="item island-box rounded card border">
-                    <div class="">
-                        <div class="image-box rounded">
-                            <img src="../Public/Assests\image\photo1.png" class="rounded-top img-fluid" alt="image">
-                        </div>
-                        <div class="p-3">
-                            <div class="d-flex align-item-center justify-content-between">
-                                <h1 class="fw-bold fs-5">Goa</h1>
-                                <span>4.5</span>
+                        <div class="owl-item active" style="width: 275px; margin-right: 10px;">
+                            <div class="item client border shadow m-2">
+                                <div class="client-img">
+                                    <img src="../Public\Assests\image\client-img-1.jpg" alt="imgae">
+                                </div>
+                                <span class="text-center open-sans d-block fw-bold">Jatin Yadav</span>
+                                <p class="text-center open-sans mt-2">Lorem, ipsum dolor sit amet consectetur
+                                    adipisicing
+                                    elit. Illo, laudantium.</p>
+                                <ul class="list-unstyled d-flex justify-content-center pe-4 mt-3">
+                                    <li>
+                                        <span class="material-symbols-outlined">
+                                            grade
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span class="material-symbols-outlined">
+                                            grade
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span class="material-symbols-outlined">
+                                            grade
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span class="material-symbols-outlined">
+                                            grade
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span class="material-symbols-outlined">
+                                            grade
+                                        </span>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
-                        <p class="poppins card-text px-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                            Commodi,
-                            eius.</p>
-                        <div class="explore-btn d-flex justify-content-center mb-3">
-                            <a href="#" class="text-decoration-none text-white">Book Now</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="item island-box rounded card border">
-                    <div class="">
-                        <div class="image-box rounded">
-                            <img src="../Public/Assests\image\photo1.png" class="rounded-top img-fluid" alt="image">
-                        </div>
-                        <div class="p-3">
-                            <div class="d-flex align-item-center justify-content-between">
-                                <h1 class="fw-bold fs-5">Goa</h1>
-                                <span>4.5</span>
+                        <div class="owl-item active" style="width: 275px; margin-right: 10px;">
+                            <div class="item client border shadow m-2">
+                                <div class="client-img">
+                                    <img src="../Public\Assests\image\client-img-1.jpg" alt="imgae">
+                                </div>
+                                <span class="text-center open-sans d-block fw-bold">Jatin Yadav</span>
+                                <p class="text-center open-sans mt-2">Lorem, ipsum dolor sit amet consectetur
+                                    adipisicing
+                                    elit. Illo, laudantium.</p>
+                                <ul class="list-unstyled d-flex justify-content-center pe-4 mt-3">
+                                    <li>
+                                        <span class="material-symbols-outlined">
+                                            grade
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span class="material-symbols-outlined">
+                                            grade
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span class="material-symbols-outlined">
+                                            grade
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span class="material-symbols-outlined">
+                                            grade
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span class="material-symbols-outlined">
+                                            grade
+                                        </span>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
-                        <p class="poppins card-text px-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                            Commodi,
-                            eius.</p>
-                        <div class="explore-btn d-flex justify-content-center mb-3">
-                            <a href="#" class="text-decoration-none text-white">Book Now</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="item island-box rounded card border">
-                    <div class="">
-                        <div class="image-box rounded">
-                            <img src="../Public/Assests\image\photo1.png" class="rounded-top img-fluid" alt="image">
-                        </div>
-                        <div class="p-3">
-                            <div class="d-flex align-item-center justify-content-between">
-                                <h1 class="fw-bold fs-5">Goa</h1>
-                                <span>4.5</span>
+                        <div class="owl-item active" style="width: 275px; margin-right: 10px;">
+                            <div class="item client border shadow m-2">
+                                <div class="client-img">
+                                    <img src="../Public\Assests\image\client-img-1.jpg" alt="imgae">
+                                </div>
+                                <span class="text-center open-sans d-block fw-bold">Jatin Yadav</span>
+                                <p class="text-center open-sans mt-2">Lorem, ipsum dolor sit amet consectetur
+                                    adipisicing
+                                    elit. Illo, laudantium.</p>
+                                <ul class="list-unstyled d-flex justify-content-center pe-4 mt-3">
+                                    <li>
+                                        <span class="material-symbols-outlined">
+                                            grade
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span class="material-symbols-outlined">
+                                            grade
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span class="material-symbols-outlined">
+                                            grade
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span class="material-symbols-outlined">
+                                            grade
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span class="material-symbols-outlined">
+                                            grade
+                                        </span>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
-                        <p class="poppins card-text px-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                            Commodi,
-                            eius.</p>
-                        <div class="explore-btn d-flex justify-content-center mb-3">
-                            <a href="#" class="text-decoration-none text-white">Book Now</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="item island-box rounded card border">
-                    <div class="">
-                        <div class="image-box rounded">
-                            <img src="../Public/Assests\image\photo1.png" class="rounded-top img-fluid" alt="image">
-                        </div>
-                        <div class="p-3">
-                            <div class="d-flex align-item-center justify-content-between">
-                                <h1 class="fw-bold fs-5">Goa</h1>
-                                <span>4.5</span>
-                            </div>
-                        </div>
-                        <p class="poppins card-text px-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                            Commodi,
-                            eius.</p>
-                        <div class="explore-btn d-flex justify-content-center mb-3">
-                            <a href="#" class="text-decoration-none text-white">Book Now</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="item island-box rounded card border">
-                    <div class="">
-                        <div class="image-box rounded">
-                            <img src="../Public/Assests\image\photo1.png" class="rounded-top img-fluid" alt="image">
-                        </div>
-                        <div class="p-3">
-                            <div class="d-flex align-item-center justify-content-between">
-                                <h1 class="fw-bold fs-5">Goa</h1>
-                                <span>4.5</span>
-                            </div>
-                        </div>
-                        <p class="poppins card-text px-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                            Commodi,
-                            eius.</p>
-                        <div class="explore-btn d-flex justify-content-center mb-3">
-                            <a href="#" class="text-decoration-none text-white">Book Now</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="item island-box rounded card border">
-                    <div class="">
-                        <div class="image-box rounded">
-                            <img src="../Public/Assests\image\photo1.png" class="rounded-top img-fluid" alt="image">
-                        </div>
-                        <div class="p-3">
-                            <div class="d-flex align-item-center justify-content-between">
-                                <h1 class="fw-bold fs-5">Goa</h1>
-                                <span>4.5</span>
-                            </div>
-                        </div>
-                        <p class="poppins card-text px-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                            Commodi,
-                            eius.</p>
-                        <div class="explore-btn d-flex justify-content-center mb-3">
-                            <a href="#" class="text-decoration-none text-white">Book Now</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="item island-box rounded card border">
-                    <div class="">
-                        <div class="image-box rounded">
-                            <img src="../Public/Assests\image\photo1.png" class="rounded-top img-fluid" alt="image">
-                        </div>
-                        <div class="p-3">
-                            <div class="d-flex align-item-center justify-content-between">
-                                <h1 class="fw-bold fs-5">Goa</h1>
-                                <span>4.5</span>
-                            </div>
-                        </div>
-                        <p class="poppins card-text px-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                            Commodi,
-                            eius.</p>
-                        <div class="explore-btn d-flex justify-content-center mb-3">
-                            <a href="#" class="text-decoration-none text-white">Book Now</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="item island-box rounded card border">
-                    <div class="">
-                        <div class="image-box rounded">
-                            <img src="../Public/Assests\image\photo1.png" class="rounded-top img-fluid" alt="image">
-                        </div>
-                        <div class="p-3">
-                            <div class="d-flex align-item-center justify-content-between">
-                                <h1 class="fw-bold fs-5">Goa</h1>
-                                <span>4.5</span>
-                            </div>
-                        </div>
-                        <p class="poppins card-text px-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                            Commodi,
-                            eius.</p>
-                        <div class="explore-btn d-flex justify-content-center mb-3">
-                            <a href="#" class="text-decoration-none text-white">Book Now</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="item island-box rounded card border">
-                    <div class="">
-                        <div class="image-box rounded">
-                            <img src="../Public/Assests\image\photo1.png" class="rounded-top img-fluid" alt="image">
-                        </div>
-                        <div class="p-3">
-                            <div class="d-flex align-item-center justify-content-between">
-                                <h1 class="fw-bold fs-5">Goa</h1>
-                                <span>4.5</span>
-                            </div>
-                        </div>
-                        <p class="poppins card-text px-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                            Commodi,
-                            eius.</p>
-                        <div class="explore-btn d-flex justify-content-center mb-3">
-                            <a href="#" class="text-decoration-none text-white">Book Now</a>
-                        </div>
+                        
                     </div>
                 </div>
             </div>
