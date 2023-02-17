@@ -123,90 +123,22 @@
     justify-content: center;
 }
 
+/* CLIENT REVIEWS SECTION   */
 
-/* CONTACT SECTION */
-
-.contact {
-    background-color: #49b8d7;
-    border-radius: 15px;
-    color: #ffff;
+.client {
+    height: 350px;
+    width: 250px;
 }
 
-.map-image {
-    width: 400px;
-    height: 200px;
-    opacity: 0.7;
+.client-img {
+    height: 70px;
+    width: 70px;
+    margin: 20px auto;
+    border-radius: 50%;
 }
 
-.btn-contact {
-    margin: auto;
-    background-color: #ffff;
-    height: 50px;
-    width: 60%;
-}
-
-.btn-contact:hover {
-    background-color: #ffff;
-    color: #000;
-}
-
-/* LastMain Section */
-
-.last-main {
-    background-color: #41A5C1;
-    margin-top: 10px;
-    padding: 10px 0px;
-    color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.last-main-content {
-    padding: 15px;
-}
-
-
-.last-main-content ul li:hover {
-    color: #ffa600;
-}
-
-
-.last-main-content ul li a:hover {
-    color: #ffa600;
-    font-family: 'Ubuntu', sans-serif;
-}
-
-.last-main-content ul li a {
-    text-decoration: none;
-    color: #fff;
-}
-
-.last-main-content ul li a i {
-    margin: 0px 20px;
-}
-
-/* footer Section */
-
-.footer {
-    background-color: #41A5C1;
-}
-
-.footer-content {
-
-    background-color: #41A5C1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.footer-content-icon a i {
-    color: #fff;
-    padding: 10px;
-}
-
-.footer-content-icon a i:hover {
-    color: #ffa600;
-    transform: rotate(360deg);
-    transition: all 0.8s ease-in-out;
+.client-img img {
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
 }
