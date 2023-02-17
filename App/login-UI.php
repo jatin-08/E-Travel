@@ -1,5 +1,7 @@
 <?php
 
+session_start();
+
 include("../App/header.php");
 include("../App/login.php");
 
@@ -36,7 +38,7 @@ include("../App/login.php");
                             <h4 class="card-header border-0 bg-white text-center">Sign In
                             </h4>
                             <div class="card-body">
-                                <form action="#" autocomplete="off" method="post">
+                                <form action=" <?php echo $_SERVER['PHP_SELF']; ?> " autocomplete="off" method="post">
 
                                     <div class="mb-3">
                                         <label for="exampleFormControlInput1" class="form-label">Email</label>
@@ -48,6 +50,8 @@ include("../App/login.php");
                                         <input type="password" name="password" class="form-control"
                                             id="exampleFormControlInput1" placeholder="At least 6 characters" required>
                                     </div>
+                                    <a href="http://localhost/E-Travel/App/signin-UI.php" class="text-decoration-none"
+                                        style="font-size: 13px;">Forget Password?</a>
                                     <p class="card-text">New User?<a href="http://localhost/E-Travel/App/signin-UI.php"
                                             class="text-decoration-none">Sign Up</a></p>
                                     <p class="card-text">By creating an account or logging in, you agree to E-Travel <a
