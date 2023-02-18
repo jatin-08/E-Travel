@@ -18,17 +18,10 @@ if (isset($_POST['signin'])) {
 
         $email_pass = mysqli_fetch_assoc($email_query);
         $getpassword = $email_pass['password'];
-        echo $getpassword;
-        // echo $getpassword;
-        // echo password_verify($password, $getpassword);
-        // $pass_decode = password_verify($password, $getpassword);
-        // echo $pass_decode;
+        $pass_decode = password_verify($password, $getpassword);
 
-        // $query = "SELECT * FROM user_info WHERE email = '$email' && password = '$password'";
-        // $data = mysqli_query($connection, $query);
 
-        if (password_verify($password, $getpassword)) {
-            // echo "Login successfully!";
+        if ($pass_decode) {
 
             ?>
             <meta http-equiv="refresh" content="0; url = http://localhost/E-Travel/Public/index.php" />
