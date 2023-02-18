@@ -27,7 +27,7 @@ if (isset($_POST['signin'])) {
             <meta http-equiv="refresh" content="0; url = http://localhost/E-Travel/Public/index.php" />
             <?php
         } else {
-            echo "You not login Sucessfully!";
+            echo "Enter the Valid Password";
         }
     } else {
         echo "<p>Enter the Valid Email!</p>";
