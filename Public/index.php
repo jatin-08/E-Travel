@@ -458,7 +458,7 @@ include("../App\links.php");
 
     <!-- CLIENT SECTION -->
 
-    <section class="container-fluid mt-5 pt-5">
+    <section class="container-fluid my-5 pt-5">
         <div class="container">
             <div class="row">
                 <div class="col">
@@ -662,7 +662,7 @@ include("../App\links.php");
                                 </ul>
                             </div>
                         </div>
-                        
+
                     </div>
                 </div>
             </div>
@@ -670,59 +670,14 @@ include("../App\links.php");
     </section>
 
 
-    <!-- last main SECTION -->
+    <!-- FOOTER SECTION -->
 
-    <!-- <section class="container-fluid last-main px-5 mt-5">
-        <div class="col-md-3 last-main-content">
-            <img src="../Assests\image\gol-logo-white 1.png" alt="image">
-            <p class="poppins mt-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla minus facilis
-                omnis similique aspernatur
-                minima labore eveniet, repellat veritatis reiciendis!</p>
-        </div>
-        <div class="col-md-3 last-main-content">
-            <h5>Company</h5>
-            <ul class="list-unstyled">
-                <li><a href="#"><i class="fa-solid fa-angle-right"></i>Event</a></li>
-                <li><a href="#"><i class="fa-solid fa-angle-right"></i>Blogs</a></li>
-                <li><a href="#"><i class="fa-solid fa-angle-right"></i>FAQ</a></li>
-                <li><a href="#"><i class="fa-solid fa-angle-right"></i>Join Us</a></li>
-            </ul>
-        </div>
-        <div class="col-md-3 last-main-content">
-            <h5>About Us</h5>
-            <ul class="list-unstyled">
-                <li><a href="#"><i class="fa-solid fa-angle-right"></i>Project</a></li>
-                <li><a href="#"><i class="fa-solid fa-angle-right"></i>Lorem</a></li>
-                <li><a href="#"><i class="fa-solid fa-angle-right"></i>Service</a></li>
-                <li><a href="#"><i class="fa-solid fa-angle-right"></i>Our Story</a></li>
-            </ul>
-        </div>
-        <div class="col-md-3 last-main-content">
-            <h5>Contact Us</h5>
-            <ul class="list-unstyled">
-                <li><a href="#">abcdef@gmail.com</a></li>
-                <li><a href="#">India</a></li>
-            </ul>
-        </div>
-    </section> -->
+    <?php
 
 
-    <!-- footer section -->
+    include('../App\footer.php');
 
-    <!-- <footer class="container-fluid footer">
-        <span
-            class="text-light px-5">_______________________________________________________________________________________________________________________________________________________________</span>
-        <div class="footer-content">
-            <p class="fs-6 text-light mb-0 text-center">Copyright © 2023 GoL Travels Private Limited. All Rights
-                Reserved.</p>
-            <div class="footer-content-icon">
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                <a href="#"><i class="fa-brands fa-twitter"></i></a>
-            </div>
-        </div>
-
-    </footer> -->
+    ?>
 
 </body>
 

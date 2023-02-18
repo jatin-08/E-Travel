@@ -1,3 +1,11 @@
+<?php
+
+include('../App\links.php');
+
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -8,12 +16,12 @@
     <title>GOL - Travel Where You Want In The Whole World.</title>
 </head>
 
-<body>
+<body class="bg-light">
 
     <!-- Footer Section -->
 
     <!-- Footer -->
-    <footer class="page-footer shadow-sm font-small bg-white pt-4">
+    <footer class="page-footer shadow-sm font-small pt-4">
 
         <!-- Footer Links -->
         <div class="container-fluid text-center text-md-left">
@@ -30,6 +38,9 @@
                         <span class="rounded-circle text-center text-white fw-bold">E</span>
                         <span class="poppins px-2 fw-bold mt-2">Travel</span>
                     </a>
+                    <p class="poppins pt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam omnis
+                        provident
+                        vel, aliquam dolorum officia eveniet quas consequatur iste cum.</p>
 
                 </div>
                 <!-- Grid column -->
@@ -40,20 +51,20 @@
                 <div class="col-md-3 mb-md-0 mb-3">
 
                     <!-- Links -->
-                    <h5 class="text-uppercase">About Us</h5>
+                    <h5 class="text-uppercase fs-4">About Us</h5>
 
                     <ul class="list-unstyled">
                         <li>
-                            <a href="#!">Our Story</a>
+                            <a href="#!" class="text-decoration-none poppins text-dark">Our Story</a>
                         </li>
                         <li>
-                            <a href="#!">Services</a>
+                            <a href="#!" class="text-decoration-none poppins text-dark">Services</a>
                         </li>
                         <li>
-                            <a href="#!">Mission</a>
+                            <a href="#!" class="text-decoration-none poppins text-dark">Mission</a>
                         </li>
                         <li>
-                            <a href="#!">Goal</a>
+                            <a href="#!" class="text-decoration-none poppins text-dark">Goal</a>
                         </li>
                     </ul>
 
@@ -61,20 +72,23 @@
                 <div class="col-md-3 mb-md-0 mb-3">
 
                     <!-- Links -->
-                    <h5 class="text-uppercase">Links</h5>
+                    <h5 class="text-uppercase fs-4">Links</h5>
 
                     <ul class="list-unstyled">
                         <li>
-                            <a href="#!">Link 1</a>
+                            <a href="#!" class="text-decoration-none poppins text-dark">Goal</a>
                         </li>
                         <li>
-                            <a href="#!">Link 2</a>
+                            <a href="#!" class="text-decoration-none poppins text-dark">Goal</a>
                         </li>
                         <li>
-                            <a href="#!">Link 3</a>
+                            <a href="#!" class="text-decoration-none poppins text-dark">Goal</a>
                         </li>
                         <li>
-                            <a href="#!">Link 4</a>
+                            <a href="#!" class="text-decoration-none poppins text-dark">Goal</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-decoration-none poppins text-dark">Goal</a>
                         </li>
                     </ul>
 
@@ -85,20 +99,23 @@
                 <div class="col-md-3 mb-md-0 mb-3">
 
                     <!-- Links -->
-                    <h5 class="text-uppercase">contact us</h5>
+                    <h5 class="text-uppercase fs-4">Links</h5>
 
                     <ul class="list-unstyled">
                         <li>
-                            <a href="#!">Link 1</a>
+                            <a href="#!" class="text-decoration-none poppins text-dark">Goal</a>
                         </li>
                         <li>
-                            <a href="#!">Link 2</a>
+                            <a href="#!" class="text-decoration-none poppins text-dark">Goal</a>
                         </li>
                         <li>
-                            <a href="#!">Link 3</a>
+                            <a href="#!" class="text-decoration-none poppins text-dark">Goal</a>
                         </li>
                         <li>
-                            <a href="#!">Link 4</a>
+                            <a href="#!" class="text-decoration-none poppins text-dark">Goal</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-decoration-none poppins text-dark">Goal</a>
                         </li>
                     </ul>
 
