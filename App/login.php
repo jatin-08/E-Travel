@@ -28,7 +28,11 @@ if (isset($_POST['signin'])) {
         // $data = mysqli_query($connection, $query);
 
         if (password_verify($password, $getpassword)) {
-            echo "Login successfully!";
+            // echo "Login successfully!";
+
+            ?>
+            <meta http-equiv="refresh" content="0; url = http://localhost/E-Travel/Public/index.php" />
+            <?php
         } else {
             echo "You not login Sucessfully!";
         }
