@@ -38,9 +38,9 @@ include('../App\links.php');
                         <span class="rounded-circle text-center text-white fw-bold">E</span>
                         <span class="poppins px-2 fw-bold mt-2">Travel</span>
                     </a>
-                    <p class="poppins pt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam omnis
-                        provident
-                        vel, aliquam dolorum officia eveniet quas consequatur iste cum.</p>
+                    <p class="poppins pt-2">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam omnis
+                    </p>
 
                 </div>
                 <!-- Grid column -->
@@ -55,16 +55,16 @@ include('../App\links.php');
 
                     <ul class="list-unstyled">
                         <li>
-                            <a href="#!" class="text-decoration-none poppins text-dark">Our Story</a>
+                            <a href="#!" class="text-decoration-none text-center pt-2 poppins text-dark">Our Story</a>
                         </li>
                         <li>
-                            <a href="#!" class="text-decoration-none poppins text-dark">Services</a>
+                            <a href="#!" class="text-decoration-none text-center pt-2 poppins text-dark">Services</a>
                         </li>
                         <li>
-                            <a href="#!" class="text-decoration-none poppins text-dark">Mission</a>
+                            <a href="#!" class="text-decoration-none text-center pt-2 poppins text-dark">Mission</a>
                         </li>
                         <li>
-                            <a href="#!" class="text-decoration-none poppins text-dark">Goal</a>
+                            <a href="#!" class="text-decoration-none text-center pt-2 poppins text-dark">Goal</a>
                         </li>
                     </ul>
 
