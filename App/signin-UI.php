@@ -78,6 +78,14 @@ include("../App/signin.php");
         </div>
     </section>
 
+    <!-- Footer Section -->
+
+    <?php
+
+    include("../App/footer.php");
+
+    ?>
+
 </body>
 
 </html>

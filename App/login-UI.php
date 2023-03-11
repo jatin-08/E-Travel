@@ -65,6 +65,15 @@ include("../App/login.php");
             </div>
         </div>
     </section>
+
+    <!-- Footer Section -->
+
+    <?php
+
+    include("../App/footer.php");
+
+    ?>
+
 </body>
 
 </html>
