@@ -96,6 +96,10 @@
     color: #000;
 }
 
+.owl-dots {
+    display: none;
+}
+
 /* Island Section  */
 
 .island {
