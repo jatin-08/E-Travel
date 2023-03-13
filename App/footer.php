@@ -1,6 +1,6 @@
 <?php
 
-include('../App\links.php');
+include_once('../App\links.php');
 
 ?>
 
