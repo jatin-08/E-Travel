@@ -1,7 +1,6 @@
 <?php
 
 include('../App\header.php');
-//include("../App\links.php");
 
 ?>
 
