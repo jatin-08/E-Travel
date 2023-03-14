@@ -82,7 +82,7 @@ include("../App/signin.php");
 
     <?php
 
-    include("../App/footer.php");
+    include_once("../App/footer.php");
 
     ?>
 
