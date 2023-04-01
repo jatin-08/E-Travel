@@ -21,7 +21,8 @@ if (isset($_POST['signup'])) {
     if ($emailcount > 0) {
         echo "email already exists";
     } else {
-        if ($password === $conpassword) {
+        // if any field is empty then the data will not store in the database.
+        if ($password === $conpassword && $name != "" && $email != "" && $password != "" && $conpassword != "") {
 
             $query = "INSERT INTO user_info (name, email, password, conpassword) VALUES('$name','$email','$pass','$conpass')";
             $data = mysqli_query($connection, $query);
@@ -40,7 +41,13 @@ if (isset($_POST['signup'])) {
                 echo "<script>alert('Information has not been stored successfully!')</script>";
             }
         } else {
-            echo "password is wrong!";
+            echo '<div class="alert alert-danger" role="alert">
+            Please Fill All Detail or Password Incorrect
+          </div>';
+            ?>
+            <meta http-equiv="refresh" content="3; url = http://localhost/E-Travel/App/signin-UI.php" />
+
+            <?php
         }
     }
 
