@@ -23,31 +23,34 @@ if (isset($_POST['signup'])) {
     } else {
         // if any field is empty then the data will not store in the database.
         if ($password === $conpassword && $name != "" && $email != "" && $password != "" && $conpassword != "") {
+            if (strlen($password) <= 6) {
 
-            $query = "INSERT INTO user_info (name, email, password, conpassword) VALUES('$name','$email','$pass','$conpass')";
-            $data = mysqli_query($connection, $query);
+                echo '<div class="alert alert-danger" role="alert">
+                Password is Short
+              </div>';
 
-            if ($data) {
 
-                // echo "<script>alert('Information has been stored successfully!')</script>";
+                $query = "INSERT INTO user_info (name, email, password, conpassword) VALUES('$name','$email','$pass','$conpass')";
+                $data = mysqli_query($connection, $query);
 
-                ?>
+                if ($data) {
 
-                <meta http-equiv="refresh" content="0; url = http://localhost/E-Travel/App/login-UI.php" />
+                    // echo "<script>alert('Information has been stored successfully!')</script>";
 
-                <?php
+                    ?>
 
-            } else {
-                echo "<script>alert('Information has not been stored successfully!')</script>";
+                    <meta http-equiv="refresh" content="0; url = http://localhost/E-Travel/App/login-UI.php" />
+
+                    <?php
+
+                } else {
+                    echo "<script>alert('Information has not been stored successfully!')</script>";
+                }
             }
         } else {
             echo '<div class="alert alert-danger" role="alert">
             Please Fill All Detail or Password Incorrect
           </div>';
-            ?>
-            <meta http-equiv="refresh" content="3; url = http://localhost/E-Travel/App/signin-UI.php" />
-
-            <?php
         }
     }
 
