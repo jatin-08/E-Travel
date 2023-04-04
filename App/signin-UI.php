@@ -54,6 +54,11 @@ include("../App/signin.php");
                                         <input type="password" name="password" class="form-control"
                                             placeholder="At least 6 characters">
                                     </div>
+                                    <div class="mb-3">
+                                        <label class="form-label">Confirm Password</label>
+                                        <input type="password" name="conpassword" class="form-control"
+                                            placeholder="At least 6 characters">
+                                    </div>
                                     <p class="card-text">Already have an account?<a
                                             href="http://localhost/E-Travel/App/login-UI.php"
                                             class="text-decoration-none">Sign in</a></p>
@@ -72,6 +77,14 @@ include("../App/signin.php");
             </div>
         </div>
     </section>
+
+    <!-- Footer Section -->
+
+    <?php
+
+    include_once("../App/footer.php");
+
+    ?>
 
 </body>
 

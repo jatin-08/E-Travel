@@ -1,3 +1,11 @@
+<?php
+
+include_once('../App\links.php');
+
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -8,113 +16,117 @@
     <title>GOL - Travel Where You Want In The Whole World.</title>
 </head>
 
-<body>
+<body class="bg-light">
 
     <!-- Footer Section -->
 
     <!-- Footer -->
-    <footer class="page-footer shadow-sm font-small bg-white pt-4">
+    <footer class="page-footer shadow-sm font-small pt-4 bg-dark text-white">
 
-        <!-- Footer Links -->
-        <div class="container-fluid text-center text-md-left">
-
-            <!-- Grid row -->
+        <div class="container-fluid text-center text-md-left my-5">
             <div class="row">
-
-                <!-- Grid column -->
                 <div class="col-md-3 mt-md-0 mt-3">
 
                     <!-- Content -->
-                    <a class="navbar-brand d-flex align-item-center logoIcon"
+                    <a class="navbar-brand d-flex align-item-center justify-content-center mb-3 logoIcon"
                         href="http://localhost/placement%20project/Public/index.php">
                         <span class="rounded-circle text-center text-white fw-bold">E</span>
-                        <span class="poppins px-2 fw-bold mt-2">Travel</span>
+                        <span class="poppins px-2 fw-bold mt-2 fs-5">Travel</span>
                     </a>
+                    <p class="poppins pt-2">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam omnis
+                    </p>
 
                 </div>
-                <!-- Grid column -->
-
                 <hr class="clearfix w-100 d-md-none pb-3">
-
-                <!-- Grid column -->
                 <div class="col-md-3 mb-md-0 mb-3">
-
-                    <!-- Links -->
-                    <h5 class="text-uppercase">About Us</h5>
+                    <h5 class="text-uppercase fs-4 mb-3">About Us</h5>
 
                     <ul class="list-unstyled">
-                        <li>
-                            <a href="#!">Our Story</a>
+                        <li class="mb-3">
+                            <a href="#!" class="text-decoration-none text-center pt-2 poppins text-white">Our
+                                Story</a>
                         </li>
-                        <li>
-                            <a href="#!">Services</a>
+                        <li class="mb-3">
+                            <a href="#!" class="text-decoration-none text-center pt-2 poppins text-white">Services</a>
                         </li>
-                        <li>
-                            <a href="#!">Mission</a>
+                        <li class="mb-3">
+                            <a href="#!" class="text-decoration-none text-center pt-2 poppins text-white">Mission</a>
                         </li>
-                        <li>
-                            <a href="#!">Goal</a>
+                        <li class="mb-3">
+                            <a href="#!" class="text-decoration-none text-center pt-2 poppins text-white">Project</a>
                         </li>
                     </ul>
 
                 </div>
                 <div class="col-md-3 mb-md-0 mb-3">
-
-                    <!-- Links -->
-                    <h5 class="text-uppercase">Links</h5>
+                    <h5 class="text-uppercase fs-4 mb-3">Company</h5>
 
                     <ul class="list-unstyled">
-                        <li>
-                            <a href="#!">Link 1</a>
+                        <li class="mb-3">
+                            <a href="#!" class="text-decoration-none poppins text-white">Event</a>
                         </li>
-                        <li>
-                            <a href="#!">Link 2</a>
+                        <li class="mb-3">
+                            <a href="#!" class="text-decoration-none poppins text-white">Blog</a>
                         </li>
-                        <li>
-                            <a href="#!">Link 3</a>
+                        <li class="mb-3">
+                            <a href="#!" class="text-decoration-none poppins text-white">FAQ</a>
                         </li>
-                        <li>
-                            <a href="#!">Link 4</a>
+                        <li class="mb-3">
+                            <a href="#!" class="text-decoration-none poppins text-white">Join Us</a>
                         </li>
                     </ul>
 
                 </div>
-                <!-- Grid column -->
-
-                <!-- Grid column -->
                 <div class="col-md-3 mb-md-0 mb-3">
-
-                    <!-- Links -->
-                    <h5 class="text-uppercase">contact us</h5>
+                    <h5 class="text-uppercase fs-4 mb-3">Contact Us</h5>
 
                     <ul class="list-unstyled">
-                        <li>
-                            <a href="#!">Link 1</a>
+                        <li class="mb-3">
+                            <a href="#!" class="text-decoration-none poppins text-white"><i
+                                    class="fa-solid fa-envelope px-2"></i>abcd@gmail.com</a>
                         </li>
-                        <li>
-                            <a href="#!">Link 2</a>
+                        <li class="mb-3">
+                            <a href="#!" class="text-decoration-none poppins text-white"><i
+                                    class="fa-solid fa-earth-americas px-2"></i>India</a>
                         </li>
-                        <li>
-                            <a href="#!">Link 3</a>
-                        </li>
-                        <li>
-                            <a href="#!">Link 4</a>
+                        <li class="mb-3">
+                            <a href="#!" class="text-decoration-none poppins text-white"><i
+                                    class="fa-solid fa-phone px-2"></i>9988776655</a>
                         </li>
                     </ul>
-
                 </div>
-                <!-- Grid column -->
-
             </div>
-            <!-- Grid row -->
-
         </div>
-        <!-- Footer Links -->
+        <div class="col-md-6 col-12 my-5">
+            <ul class="list-unstyled d-flex px-5">
+                <li>
+                    <a href="#!" class="text-decoration-none poppins text-white"><i
+                            class="fa-brands fa-facebook mx-3 fs-4"></i></a>
+                </li>
+                <li>
+                    <a href="#!" class="text-decoration-none poppins text-white"><i
+                            class="fa-brands fa-twitter mx-3 fs-4"></i></a>
+                </li>
+                <li>
+                    <a href="#!" class="text-decoration-none poppins text-white"><i
+                            class="fa-brands fa-instagram mx-3 fs-4"></i></a>
+                </li>
+                <li>
+                    <a href="#!" class="text-decoration-none poppins text-white"><i
+                            class="fa-brands fa-linkedin mx-3 fs-4"></i></a>
+                </li>
+            </ul>
+        </div>
 
         <!-- Copyright -->
-        <div class="footer-copyright text-center py-3">© 2020 Copyright:
+
+        <div class="footer-copyright text-center py-3 text-white bg-dark">
+            <hr class="clearfix w-100">
+            © 2020 Copyright:
             <a href="/"> E-Travel.com</a>
         </div>
+
         <!-- Copyright -->
 
     </footer>

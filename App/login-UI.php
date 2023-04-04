@@ -48,6 +48,8 @@ include("../App/login.php");
                                         <input type="password" name="password" class="form-control"
                                             id="exampleFormControlInput1" placeholder="At least 6 characters" required>
                                     </div>
+                                    <a href="http://localhost/E-Travel/App/signin-UI.php" class="text-decoration-none"
+                                        style="font-size: 13px;">Forget Password?</a>
                                     <p class="card-text">New User?<a href="http://localhost/E-Travel/App/signin-UI.php"
                                             class="text-decoration-none">Sign Up</a></p>
                                     <p class="card-text">By creating an account or logging in, you agree to E-Travel <a
@@ -63,6 +65,15 @@ include("../App/login.php");
             </div>
         </div>
     </section>
+
+    <!-- Footer Section -->
+
+    <?php
+
+    include_once("../App/footer.php");
+
+    ?>
+
 </body>
 
 </html>
