@@ -36,7 +36,7 @@ include("../App\links.php");
                             href="http://localhost/E-Travel/Public/index.php">Home</a>
                     </li>
                     <li class="nav-item open-sans">
-                        <a class="nav-link text-dark" href="#">Find Reservation</a>
+                        <a class="nav-link text-dark" href="../App\reservation.php">Find Reservation</a>
                     </li>
                     <li class="nav-item open-sans">
                         <a class="nav-link text-dark" href="#">Explore</a>

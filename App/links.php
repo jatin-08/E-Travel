@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="../Public\css\signin.css">
     <link rel="stylesheet" href="../Public\css\footer.css">
     <link rel="stylesheet" href="../Public\css\responsive.css">
+    <link rel="stylesheet" href="../Public\css\reversation.css">
 </head>
 
 <body>
