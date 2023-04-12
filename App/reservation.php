@@ -25,7 +25,7 @@ require_once('header.php');
                     <div class="card-body">
                         <h1 class="card-title fw-600 ubuntu py-3">Find Adventure awaits<br>Book your escape
                         </h1>
-                        <a href="#" class="card-link header-bg-btn fw-bold poppins">Book Now</a>
+                        <a href="#" class="card-link header-bg-btn fw-bold hover poppins">Book Now</a>
                     </div>
                 </div>
             </div>
@@ -43,18 +43,20 @@ require_once('header.php');
             <div class="row m-5">
                 <ul class="list-unstyled d-flex">
                     <li class="box">
-                        <a href="#" class="text-decoration-none shadow-sm">All Offers</a>
+                        <a href="#" class="text-decoration-none hover shadow-sm"><i
+                                class="fa-solid fa-gift px-2"></i>All Offers</a>
                     </li>
                     <li class="box">
-                        <a href="#" class="text-decoration-none shadow-sm"><i
+                        <a href="#" class="text-decoration-none hover shadow-sm"><i
                                 class="fa-solid fa-plane-departure px-2"></i>Flight</a>
                     </li>
                     <li class="box">
-                        <a href="#" class="text-decoration-none shadow-sm"><i
+                        <a href="#" class="text-decoration-none hover shadow-sm"><i
                                 class="fa-solid fa-train px-2"></i>Railway</a>
                     </li>
                     <li class="box">
-                        <a href="#" class="text-decoration-none shadow-sm"><i class="fa-solid fa-bus px-2"></i>Bus</a>
+                        <a href="#" class="text-decoration-none hover shadow-sm"><i
+                                class="fa-solid fa-bus px-2"></i>Bus</a>
                     </li>
                 </ul>
             </div>
@@ -69,7 +71,7 @@ require_once('header.php');
                         aperiam excepturi ut esse a voluptates inventore.</p>
                     <div class="explore-btn d-flex justify-content-between">
                         <p class="text-decoration-underline text-dark px-3 pt-2">T&C Apply</p>
-                        <a href="#" class="text-decoration-none text-white mb-3 mx-2">Book Now</a>
+                        <a href="#" class="text-decoration-none hover mb-3 mx-2">Book Now</a>
                     </div>
                 </div>
                 <div class="island-box rounded card border-0 shadow">
@@ -82,7 +84,7 @@ require_once('header.php');
                         aperiam excepturi ut esse a voluptates inventore.</p>
                     <div class="explore-btn d-flex justify-content-between">
                         <p class="text-decoration-underline text-dark px-3 pt-2">T&C Apply</p>
-                        <a href="#" class="text-decoration-none text-white mb-3 mx-2">Book Now</a>
+                        <a href="#" class="text-decoration-none mb-3 hover mx-2">Book Now</a>
                     </div>
                 </div>
                 <div class="island-box rounded card border-0 shadow">
@@ -95,7 +97,7 @@ require_once('header.php');
                         aperiam excepturi ut esse a voluptates inventore.</p>
                     <div class="explore-btn d-flex justify-content-between">
                         <p class="text-decoration-underline text-dark px-3 pt-2">T&C Apply</p>
-                        <a href="#" class="text-decoration-none text-white mb-3 mx-2">Book Now</a>
+                        <a href="#" class="text-decoration-none hover mb-3 mx-2">Book Now</a>
                     </div>
                 </div>
                 <div class="island-box rounded card border-0 shadow">
@@ -108,7 +110,7 @@ require_once('header.php');
                         aperiam excepturi ut esse a voluptates inventore.</p>
                     <div class="explore-btn d-flex justify-content-between">
                         <p class="text-decoration-underline text-dark px-3 pt-2">T&C Apply</p>
-                        <a href="#" class="text-decoration-none text-white mb-3 mx-2">Book Now</a>
+                        <a href="#" class="text-decoration-none mb-3 hover mx-2">Book Now</a>
                     </div>
                 </div>
                 <div class="island-box rounded card border-0 shadow">
@@ -121,7 +123,7 @@ require_once('header.php');
                         aperiam excepturi ut esse a voluptates inventore.</p>
                     <div class="explore-btn d-flex justify-content-between">
                         <p class="text-decoration-underline text-dark px-3 pt-2">T&C Apply</p>
-                        <a href="#" class="text-decoration-none text-white mb-3 mx-2">Book Now</a>
+                        <a href="#" class="text-decoration-none mb-3 hover mx-2">Book Now</a>
                     </div>
                 </div>
             </div>
@@ -133,7 +135,11 @@ require_once('header.php');
     <!-- Query Section Start -->
 
     <div class="container-fluid my-5">
-        <div class="row card border-0 shadow mx-5 g-3">
+
+        <h1 class="poppins text-center my-5 fw-bold">Contact Us</h1>
+        <p class="text-center mt-2 mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur error fugiat ut
+            esse. Possimus illum optio consequatur! Ullam, sed praesentium!</p>
+        <div class="row card border-0 shadow py-3 mt-5 mx-5 g-3">
             <div class="col">
                 <input type="text" class="form-control" placeholder="Enter Your Name">
             </div>
@@ -141,7 +147,8 @@ require_once('header.php');
                 <input type="email" class="form-control" placeholder="Enter Your E-mail">
             </div>
             <div class="col">
-                <a href="#" class="header-bg-btn mb-3 mt-2">Submit</a>
+                <input type="submit" value="Submit" name="submit"
+                    class="form-control hover header-bg-btn fw-bold mb-3 mt-2">
             </div>
         </div>
     </div>

@@ -116,7 +116,8 @@
 }
 
 .explore-btn a {
-    background-color: #31c82c;
+    background-color: rgba(124, 212, 41, 0.977);
+    color: #ffff;
     font-size: 16px;
     border-radius: 50px;
     font-weight: 700;

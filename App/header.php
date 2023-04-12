@@ -53,7 +53,7 @@ include("../App\links.php");
                 </ul>
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item open-sans">
-                        <a class="nav-link text-center signin-btn ubuntu text-white"
+                        <a class="nav-link text-center signin-btn ubuntu hover"
                             href="http://localhost/E-Travel/App/login-UI.php">Sign In</a>
                     </li>
                 </ul>

@@ -29,7 +29,7 @@ include('../App\header.php');
                         <h1 class="card-title fw-600 ubuntu py-3">Find Your Next Travel Destination:<br>Book with
                             Confidence
                         </h1>
-                        <a href="#" class="card-link header-bg-btn fw-bold poppins">Explore More</a>
+                        <a href="#" class="card-link header-bg-btn fw-bold hover poppins">Explore More</a>
                     </div>
                 </div>
             </div>
@@ -68,7 +68,7 @@ include('../App\header.php');
             </div>
             <div class="col my-3 d-flex main gap-4">
                 <button class="btn-add"><i class="fa-solid fa-plus px-2"></i>Add Promo Code</button>
-                <button class="btn-flight"><i class="fa-brands fa-telegram px-2 text-white fs-4"></i>Show
+                <button class="btn-flight hover"><i class="fa-brands fa-telegram px-2 fs-4"></i>Show
                     flight</button>
             </div>
         </form>
@@ -102,7 +102,7 @@ include('../App\header.php');
                             Commodi,
                             eius.</p>
                         <div class="explore-btn d-flex justify-content-center mb-3">
-                            <a href="#" class="text-decoration-none text-white">Book Now</a>
+                            <a href="#" class="text-decoration-none hover">Book Now</a>
                         </div>
                     </div>
                 </div>
@@ -121,7 +121,7 @@ include('../App\header.php');
                             Commodi,
                             eius.</p>
                         <div class="explore-btn d-flex justify-content-center mb-3">
-                            <a href="#" class="text-decoration-none text-white">Book Now</a>
+                            <a href="#" class="text-decoration-none hover">Book Now</a>
                         </div>
                     </div>
                 </div>
@@ -140,7 +140,7 @@ include('../App\header.php');
                             Commodi,
                             eius.</p>
                         <div class="explore-btn d-flex justify-content-center mb-3">
-                            <a href="#" class="text-decoration-none text-white">Book Now</a>
+                            <a href="#" class="text-decoration-none hover">Book Now</a>
                         </div>
                     </div>
                 </div>
@@ -159,7 +159,7 @@ include('../App\header.php');
                             Commodi,
                             eius.</p>
                         <div class="explore-btn d-flex justify-content-center mb-3">
-                            <a href="#" class="text-decoration-none text-white">Book Now</a>
+                            <a href="#" class="text-decoration-none hover">Book Now</a>
                         </div>
                     </div>
                 </div>
@@ -178,7 +178,7 @@ include('../App\header.php');
                             Commodi,
                             eius.</p>
                         <div class="explore-btn d-flex justify-content-center mb-3">
-                            <a href="#" class="text-decoration-none text-white">Book Now</a>
+                            <a href="#" class="text-decoration-none hover">Book Now</a>
                         </div>
                     </div>
                 </div>
@@ -197,7 +197,7 @@ include('../App\header.php');
                             Commodi,
                             eius.</p>
                         <div class="explore-btn d-flex justify-content-center mb-3">
-                            <a href="#" class="text-decoration-none text-white">Book Now</a>
+                            <a href="#" class="text-decoration-none hover">Book Now</a>
                         </div>
                     </div>
                 </div>
@@ -216,7 +216,7 @@ include('../App\header.php');
                             Commodi,
                             eius.</p>
                         <div class="explore-btn d-flex justify-content-center mb-3">
-                            <a href="#" class="text-decoration-none text-white">Book Now</a>
+                            <a href="#" class="text-decoration-none hover">Book Now</a>
                         </div>
                     </div>
                 </div>
@@ -235,7 +235,7 @@ include('../App\header.php');
                             Commodi,
                             eius.</p>
                         <div class="explore-btn d-flex justify-content-center mb-3">
-                            <a href="#" class="text-decoration-none text-white">Book Now</a>
+                            <a href="#" class="text-decoration-none hover">Book Now</a>
                         </div>
                     </div>
                 </div>
@@ -254,7 +254,7 @@ include('../App\header.php');
                             Commodi,
                             eius.</p>
                         <div class="explore-btn d-flex justify-content-center mb-3">
-                            <a href="#" class="text-decoration-none text-white">Book Now</a>
+                            <a href="#" class="text-decoration-none hover">Book Now</a>
                         </div>
                     </div>
                 </div>
@@ -273,7 +273,7 @@ include('../App\header.php');
                             Commodi,
                             eius.</p>
                         <div class="explore-btn d-flex justify-content-center mb-3">
-                            <a href="#" class="text-decoration-none text-white">Book Now</a>
+                            <a href="#" class="text-decoration-none hover">Book Now</a>
                         </div>
                     </div>
                 </div>
@@ -292,7 +292,7 @@ include('../App\header.php');
                             Commodi,
                             eius.</p>
                         <div class="explore-btn d-flex justify-content-center mb-3">
-                            <a href="#" class="text-decoration-none text-white">Book Now</a>
+                            <a href="#" class="text-decoration-none hover">Book Now</a>
                         </div>
                     </div>
                 </div>
@@ -311,7 +311,7 @@ include('../App\header.php');
                             Commodi,
                             eius.</p>
                         <div class="explore-btn d-flex justify-content-center mb-3">
-                            <a href="#" class="text-decoration-none text-white">Book Now</a>
+                            <a href="#" class="text-decoration-none hover">Book Now</a>
                         </div>
                     </div>
                 </div>
@@ -346,7 +346,7 @@ include('../App\header.php');
                     <p class="poppins card-text px-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi,
                         eius.</p>
                     <div class="explore-btn d-flex justify-content-center mb-3">
-                        <a href="#" class="text-decoration-none text-white">Explore More</a>
+                        <a href="#" class="text-decoration-none hover">Explore More</a>
                     </div>
                 </div>
                 <div class="island-box rounded card border-0 shadow">
@@ -363,7 +363,7 @@ include('../App\header.php');
                     <p class="poppins card-text px-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi,
                         eius.</p>
                     <div class="explore-btn d-flex justify-content-center mb-3">
-                        <a href="#" class="text-decoration-none text-white">Explore More</a>
+                        <a href="#" class="text-decoration-none hover">Explore More</a>
                     </div>
                 </div>
                 <div class="island-box rounded card border-0 shadow">
@@ -380,7 +380,7 @@ include('../App\header.php');
                     <p class="poppins card-text px-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi,
                         eius.</p>
                     <div class="explore-btn d-flex justify-content-center mb-3">
-                        <a href="#" class="text-decoration-none text-white">Explore More</a>
+                        <a href="#" class="text-decoration-none hover">Explore More</a>
                     </div>
                 </div>
                 <div class="island-box rounded card border-0 shadow">
@@ -397,7 +397,7 @@ include('../App\header.php');
                     <p class="poppins card-text px-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi,
                         eius.</p>
                     <div class="explore-btn d-flex justify-content-center mb-3">
-                        <a href="#" class="text-decoration-none text-white">Explore More</a>
+                        <a href="#" class="text-decoration-none hover">Explore More</a>
                     </div>
                 </div>
                 <div class="island-box rounded card border-0 shadow">
@@ -413,7 +413,7 @@ include('../App\header.php');
                     <p class="poppins card-text px-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi,
                         eius.</p>
                     <div class="explore-btn d-flex justify-content-center mb-3">
-                        <a href="#" class="text-decoration-none text-white">Explore More</a>
+                        <a href="#" class="text-decoration-none hover">Explore More</a>
                     </div>
                 </div>
                 <div class="island-box rounded card border-0 shadow">
@@ -429,7 +429,7 @@ include('../App\header.php');
                     <p class="poppins card-text px-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi,
                         eius.</p>
                     <div class="explore-btn d-flex justify-content-center mb-3">
-                        <a href="#" class="text-decoration-none text-white">Explore More</a>
+                        <a href="#" class="text-decoration-none hover">Explore More</a>
                     </div>
                 </div>
             </div>
