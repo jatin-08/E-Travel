@@ -1,24 +1,6 @@
-<?php
-
-include_once('../App\links.php');
-
-?>
 
 
-
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GOL - Travel Where You Want In The Whole World.</title>
-</head>
-
-<body class="bg-light">
-
-    <!-- Footer Section -->
+    <!-- Footer Section START-->
 
     <!-- Footer -->
     <footer class="page-footer shadow-sm font-small pt-4 bg-dark text-white">
@@ -130,7 +112,15 @@ include_once('../App\links.php');
         <!-- Copyright -->
 
     </footer>
-    <!-- Footer -->
+    <!-- FOOTER SECTION START -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+        </script>
+    <script src="https://code.jquery.com/jquery-3.6.3.js"
+        integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+    <script src="../Assests\javascript\index.js"></script>
 
 </body>
 

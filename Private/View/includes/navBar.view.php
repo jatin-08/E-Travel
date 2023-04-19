@@ -1,27 +1,9 @@
-<?php
 
-include("../App\links.php");
-
-?>
-
-
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GOL - Travel Where You Want In The Whole World.</title>
-</head>
-
-<body>
-
-    <!-- HEADER SECTION -->
+    <!-- NAVBAR SECTION START -->
 
     <nav class="navbar navbar-expand-lg bg-white shadow-sm sticky-top">
         <div class="container-fluid">
-            <a class="navbar-brand d-flex align-item-center logoIcon" href="http://localhost/E-Travel/Public/index.php">
+            <a class="navbar-brand d-flex align-item-center logoIcon" href="http://localhost/E-Travel/">
                 <span class="rounded-circle text-center text-white fw-bold">E</span>
                 <span class="poppins px-2 fw-bold mt-2">Travel</span>
             </a>
@@ -33,7 +15,7 @@ include("../App\links.php");
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item open-sans">
                         <a class="nav-link text-dark" aria-current="page"
-                            href="http://localhost/E-Travel/Public/index.php">Home</a>
+                            href="http://localhost/E-Travel/">Home</a>
                     </li>
                     <li class="nav-item open-sans">
                         <a class="nav-link text-dark" href="../App\reservation.php">Find Reservation</a>
@@ -60,6 +42,5 @@ include("../App\links.php");
             </div>
         </div>
     </nav>
-</body>
 
-</html>
+<!-- NAVBAR SECTION END -->

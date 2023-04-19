@@ -1,23 +1,11 @@
 <?php
 
-include('../App\header.php');
+$this->view("includes/header");
+$this->view("includes/navBar");
 
 ?>
 
-
 <!-- HOME PAGE -->
-
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GOL - Travel Where You Want In The Whole World.</title>
-</head>
-
-<body class="bg-light">
 
     <!-- header background image -->
 
@@ -34,7 +22,7 @@ include('../App\header.php');
                 </div>
             </div>
             <div class="col-lg-6 order-lg-last order-first col-12">
-                <img src="../Public\Assests\image\image 1.jpg" class="w-100" alt="image">
+                <img src="Assests\image\image 1.jpg" class="w-100" alt="image">
             </div>
         </div>
     </section>
@@ -674,10 +662,6 @@ include('../App\header.php');
     <?php
 
 
-    include('../App\footer.php');
+    $this->View("include/footer");
 
     ?>
-
-</body>
-
-</html>
