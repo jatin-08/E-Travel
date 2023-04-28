@@ -1,6 +1,6 @@
 <?php
 
-  class Home extends Controller
+  class Reservation extends Controller
   {
     function index(){
 
@@ -17,7 +17,7 @@
       //     $errors = $user->errors;
       //   }
       // }
-      $this->view('home',['errors'=>$errors]);
+      $this->view('reservation',['errors'=>$errors]);
     }
   }
   

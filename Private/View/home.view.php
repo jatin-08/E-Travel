@@ -78,7 +78,7 @@ $this->view("includes/navBar");
                 <div class="item island-box rounded card border">
                     <div class="">
                         <div class="image-box rounded">
-                            <img src="../Public/Assests\image\photo1.png" class="rounded-top img-fluid" alt="image">
+                            <img src="Assests\image\photo1.png" class="rounded-top img-fluid" alt="image">
                         </div>
                         <div class="p-3">
                             <div class="d-flex align-item-center justify-content-between">
@@ -97,7 +97,7 @@ $this->view("includes/navBar");
                 <div class="item island-box rounded card border">
                     <div class="">
                         <div class="image-box rounded">
-                            <img src="../Public/Assests\image\photo1.png" class="rounded-top img-fluid" alt="image">
+                            <img src="Assests\image\photo1.png" class="rounded-top img-fluid" alt="image">
                         </div>
                         <div class="p-3">
                             <div class="d-flex align-item-center justify-content-between">
@@ -116,7 +116,7 @@ $this->view("includes/navBar");
                 <div class="item island-box rounded card border">
                     <div class="">
                         <div class="image-box rounded">
-                            <img src="../Public/Assests\image\photo1.png" class="rounded-top img-fluid" alt="image">
+                            <img src="Assests\image\photo1.png" class="rounded-top img-fluid" alt="image">
                         </div>
                         <div class="p-3">
                             <div class="d-flex align-item-center justify-content-between">
@@ -135,7 +135,7 @@ $this->view("includes/navBar");
                 <div class="item island-box rounded card border">
                     <div class="">
                         <div class="image-box rounded">
-                            <img src="../Public/Assests\image\photo1.png" class="rounded-top img-fluid" alt="image">
+                            <img src="Assests\image\photo1.png" class="rounded-top img-fluid" alt="image">
                         </div>
                         <div class="p-3">
                             <div class="d-flex align-item-center justify-content-between">
@@ -154,7 +154,7 @@ $this->view("includes/navBar");
                 <div class="item island-box rounded card border">
                     <div class="">
                         <div class="image-box rounded">
-                            <img src="../Public/Assests\image\photo1.png" class="rounded-top img-fluid" alt="image">
+                            <img src="Assests\image\photo1.png" class="rounded-top img-fluid" alt="image">
                         </div>
                         <div class="p-3">
                             <div class="d-flex align-item-center justify-content-between">
@@ -173,7 +173,7 @@ $this->view("includes/navBar");
                 <div class="item island-box rounded card border">
                     <div class="">
                         <div class="image-box rounded">
-                            <img src="../Public/Assests\image\photo1.png" class="rounded-top img-fluid" alt="image">
+                            <img src="Assests\image\photo1.png" class="rounded-top img-fluid" alt="image">
                         </div>
                         <div class="p-3">
                             <div class="d-flex align-item-center justify-content-between">
@@ -192,7 +192,7 @@ $this->view("includes/navBar");
                 <div class="item island-box rounded card border">
                     <div class="">
                         <div class="image-box rounded">
-                            <img src="../Public/Assests\image\photo1.png" class="rounded-top img-fluid" alt="image">
+                            <img src="Assests\image\photo1.png" class="rounded-top img-fluid" alt="image">
                         </div>
                         <div class="p-3">
                             <div class="d-flex align-item-center justify-content-between">
@@ -211,7 +211,7 @@ $this->view("includes/navBar");
                 <div class="item island-box rounded card border">
                     <div class="">
                         <div class="image-box rounded">
-                            <img src="../Public/Assests\image\photo1.png" class="rounded-top img-fluid" alt="image">
+                            <img src="Assests\image\photo1.png" class="rounded-top img-fluid" alt="image">
                         </div>
                         <div class="p-3">
                             <div class="d-flex align-item-center justify-content-between">
@@ -230,7 +230,7 @@ $this->view("includes/navBar");
                 <div class="item island-box rounded card border">
                     <div class="">
                         <div class="image-box rounded">
-                            <img src="../Public/Assests\image\photo1.png" class="rounded-top img-fluid" alt="image">
+                            <img src="Assests\image\photo1.png" class="rounded-top img-fluid" alt="image">
                         </div>
                         <div class="p-3">
                             <div class="d-flex align-item-center justify-content-between">
@@ -249,7 +249,7 @@ $this->view("includes/navBar");
                 <div class="item island-box rounded card border">
                     <div class="">
                         <div class="image-box rounded">
-                            <img src="../Public/Assests\image\photo1.png" class="rounded-top img-fluid" alt="image">
+                            <img src="Assests\image\photo1.png" class="rounded-top img-fluid" alt="image">
                         </div>
                         <div class="p-3">
                             <div class="d-flex align-item-center justify-content-between">
@@ -268,7 +268,7 @@ $this->view("includes/navBar");
                 <div class="item island-box rounded card border">
                     <div class="">
                         <div class="image-box rounded">
-                            <img src="../Public/Assests\image\photo1.png" class="rounded-top img-fluid" alt="image">
+                            <img src="Assests\image\photo1.png" class="rounded-top img-fluid" alt="image">
                         </div>
                         <div class="p-3">
                             <div class="d-flex align-item-center justify-content-between">
@@ -287,7 +287,7 @@ $this->view("includes/navBar");
                 <div class="item island-box rounded card border">
                     <div class="">
                         <div class="image-box rounded">
-                            <img src="../Public/Assests\image\photo1.png" class="rounded-top img-fluid" alt="image">
+                            <img src="Assests\image\photo1.png" class="rounded-top img-fluid" alt="image">
                         </div>
                         <div class="p-3">
                             <div class="d-flex align-item-center justify-content-between">
@@ -322,7 +322,7 @@ $this->view("includes/navBar");
             <div class="island">
                 <div class="island-box rounded card border-0 shadow">
                     <div class="image-box rounded">
-                        <img src="../Public/Assests\image\images (17) 1 3.png" class="rounded-top img-fluid"
+                        <img src="Assests\image\images (17) 1 3.png" class="rounded-top img-fluid"
                             alt="image">
                     </div>
                     <div class="p-3">
@@ -339,7 +339,7 @@ $this->view("includes/navBar");
                 </div>
                 <div class="island-box rounded card border-0 shadow">
                     <div class="image-box rounded">
-                        <img src="../Public/Assests\image\images (17) 1 4.png" class="rounded-top img-fluid"
+                        <img src="Assests\image\images (17) 1 4.png" class="rounded-top img-fluid"
                             alt="image">
                     </div>
                     <div class="p-3">
@@ -356,7 +356,7 @@ $this->view("includes/navBar");
                 </div>
                 <div class="island-box rounded card border-0 shadow">
                     <div class="image-box rounded">
-                        <img src="../Public/Assests\image\images (17) 1 5.png" class="rounded-top img-fluid"
+                        <img src="Assests\image\images (17) 1 5.png" class="rounded-top img-fluid"
                             alt="image">
                     </div>
                     <div class="p-3">
@@ -373,7 +373,7 @@ $this->view("includes/navBar");
                 </div>
                 <div class="island-box rounded card border-0 shadow">
                     <div class="image-box rounded">
-                        <img src="../Public/Assests\image\images (17) 1 6.png" class="rounded-top img-fluid"
+                        <img src="Assests\image\images (17) 1 6.png" class="rounded-top img-fluid"
                             alt="image">
                     </div>
                     <div class="p-3">
@@ -390,7 +390,7 @@ $this->view("includes/navBar");
                 </div>
                 <div class="island-box rounded card border-0 shadow">
                     <div class="image-box rounded">
-                        <img src="../Public/Assests\image\images (17) 2.png" class="rounded-top img-fluid" alt="image">
+                        <img src="Assests\image\images (17) 2.png" class="rounded-top img-fluid" alt="image">
                     </div>
                     <div class="p-3">
                         <div class="d-flex align-item-center justify-content-between">
@@ -406,7 +406,7 @@ $this->view("includes/navBar");
                 </div>
                 <div class="island-box rounded card border-0 shadow">
                     <div class="image-box rounded">
-                        <img src="../Public/Assests\image\images (17) 1.png" class="rounded-top img-fluid" alt="image">
+                        <img src="Assests\image\images (17) 1.png" class="rounded-top img-fluid" alt="image">
                     </div>
                     <div class="p-3">
                         <div class="d-flex align-item-center justify-content-between">
@@ -462,7 +462,7 @@ $this->view("includes/navBar");
                         <div class="owl-item active" style="width: 275px; margin-right: 10px;">
                             <div class="item client border shadow m-2">
                                 <div class="client-img">
-                                    <img src="../Public\Assests\image\client-img-1.jpg" alt="imgae">
+                                    <img src="Assests\image\client-img-1.jpg" alt="imgae">
                                 </div>
                                 <span class="text-center open-sans d-block fw-bold">Jatin Yadav</span>
                                 <p class="text-center open-sans mt-2">Lorem, ipsum dolor sit amet consectetur
@@ -500,7 +500,7 @@ $this->view("includes/navBar");
                         <div class="owl-item active" style="width: 275px; margin-right: 10px;">
                             <div class="item client border shadow m-2">
                                 <div class="client-img">
-                                    <img src="../Public\Assests\image\client-img-1.jpg" alt="imgae">
+                                    <img src="Assests\image\client-img-1.jpg" alt="imgae">
                                 </div>
                                 <span class="text-center open-sans d-block fw-bold">Jatin Yadav</span>
                                 <p class="text-center open-sans mt-2">Lorem, ipsum dolor sit amet consectetur
@@ -538,7 +538,7 @@ $this->view("includes/navBar");
                         <div class="owl-item active" style="width: 275px; margin-right: 10px;">
                             <div class="item client border shadow m-2">
                                 <div class="client-img">
-                                    <img src="../Public\Assests\image\client-img-1.jpg" alt="imgae">
+                                    <img src="Assests\image\client-img-1.jpg" alt="imgae">
                                 </div>
                                 <span class="text-center open-sans d-block fw-bold">Jatin Yadav</span>
                                 <p class="text-center open-sans mt-2">Lorem, ipsum dolor sit amet consectetur
@@ -576,7 +576,7 @@ $this->view("includes/navBar");
                         <div class="owl-item active" style="width: 275px; margin-right: 10px;">
                             <div class="item client border shadow m-2">
                                 <div class="client-img">
-                                    <img src="../Public\Assests\image\client-img-1.jpg" alt="imgae">
+                                    <img src="Assests\image\client-img-1.jpg" alt="imgae">
                                 </div>
                                 <span class="text-center open-sans d-block fw-bold">Jatin Yadav</span>
                                 <p class="text-center open-sans mt-2">Lorem, ipsum dolor sit amet consectetur
@@ -614,7 +614,7 @@ $this->view("includes/navBar");
                         <div class="owl-item active" style="width: 275px; margin-right: 10px;">
                             <div class="item client border shadow m-2">
                                 <div class="client-img">
-                                    <img src="../Public\Assests\image\client-img-1.jpg" alt="imgae">
+                                    <img src="Assests\image\client-img-1.jpg" alt="imgae">
                                 </div>
                                 <span class="text-center open-sans d-block fw-bold">Jatin Yadav</span>
                                 <p class="text-center open-sans mt-2">Lorem, ipsum dolor sit amet consectetur
@@ -662,6 +662,6 @@ $this->view("includes/navBar");
     <?php
 
 
-    $this->View("include/footer");
+    $this->view("includes/footer");
 
     ?>
