@@ -3,7 +3,7 @@
    {
       public function view($view,$data = []){
            extract($data);
-           echo VIEWS.$view.".view.php";
+         //   echo VIEWS.$view.".view.php";
            
            if(file_exists(VIEWS.$view.".view.php"))
            {

@@ -153,6 +153,6 @@ $this->view("includes/navBar"); // The header or navbar related information is p
 
 <?php
 
-$this->view("include/footer"); // In this all footer related things present in this file.
+$this->view("includes/footer"); // In this all footer related things present in this file.
 
 ?>

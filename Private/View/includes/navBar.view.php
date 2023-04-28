@@ -18,7 +18,7 @@
                             href="http://localhost/E-Travel/">Home</a>
                     </li>
                     <li class="nav-item open-sans">
-                        <a class="nav-link text-dark" href="http://localhost/E-Travel/private/view/reservation">Find Reservation</a>
+                        <a class="nav-link text-dark" href="http://localhost/E-Travel/reservation">Find Reservation</a>
                     </li>
                     <li class="nav-item open-sans">
                         <a class="nav-link text-dark" href="#">Explore</a>
