@@ -2,7 +2,7 @@
 
 // Database Constant Start
 
-define("DBNAME",'e_travel');
+define("DBNAME",'etravel');
 define("DBHOST",'localhost');
 define("DBUSER",'root');
 define("DBPASSWORD",'');
