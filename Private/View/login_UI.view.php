@@ -1,24 +1,11 @@
 <?php
 
-include("../App/header.php");
-include("../App/login.php");
+$this->view("includes/header");
+$this->view("includes/navBar");
 
 ?>
 
 <!-- Login Page -->
-
-
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gol Login Page</title>
-</head>
-
-<body class="bg-light">
 
     <section class="container" style="min-height:100vh;">
         <div class="row d-flex justify-content-center pt-5">
@@ -29,7 +16,7 @@ include("../App/login.php");
                 <div class="card border-0 shadow-sm">
                     <div class="row gap-0">
                         <div class="col-md-6">
-                            <img src="../Public/Assests\image\signin-imagee1.jpg" class="img-fluid rounded-start h-100"
+                            <img src="Assests\image\signin-imagee1.jpg" class="img-fluid rounded-start h-100"
                                 alt="image">
                         </div>
                         <div class="col-md-6 pt-3">
@@ -48,7 +35,7 @@ include("../App/login.php");
                                         <input type="password" name="password" class="form-control"
                                             id="exampleFormControlInput1" placeholder="At least 6 characters" required>
                                     </div>
-                                    <a href="http://localhost/E-Travel/App/signin-UI.php" class="text-decoration-none"
+                                    <a href="http://localhost/E-Travel/private/signin-UI.php" class="text-decoration-none"
                                         style="font-size: 13px;">Forget Password?</a>
                                     <p class="card-text">New User?<a href="http://localhost/E-Travel/App/signin-UI.php"
                                             class="text-decoration-none">Sign Up</a></p>
@@ -70,10 +57,6 @@ include("../App/login.php");
 
     <?php
 
-    include_once("../App/footer.php");
+$this->view("includes/footer");
 
     ?>
-
-</body>
-
-</html>

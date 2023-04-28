@@ -36,7 +36,7 @@
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item open-sans">
                         <a class="nav-link text-center signin-btn ubuntu hover"
-                            href="http://localhost/E-Travel/App/login-UI.php">Sign In</a>
+                            href="http://localhost/E-Travel/private/view/login_UI">Sign In</a>
                     </li>
                 </ul>
             </div>
