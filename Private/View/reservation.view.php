@@ -142,6 +142,9 @@ $this->view("includes/navBar"); // The header or navbar related information is p
             <input type="email" class="form-control" placeholder="Enter Your E-mail">
         </div>
         <div class="col">
+            <textarea class="form-control" name="" id="" cols="100" rows="5" placeholder="Write your query here"></textarea>
+        </div>
+        <div class="col">
             <input type="submit" value="Submit" name="submit"
                 class="form-control hover header-bg-btn fw-bold mb-3 mt-2">
         </div>
