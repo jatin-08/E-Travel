@@ -3,8 +3,8 @@
 
 <?php
 
-$this->view("includes/header");
-$this->view("includes/navBar");
+$this->view("includes/header"); // All the link are present in the header.
+$this->view("includes/navBar"); // The header or navbar related information is present in the navBar.
 
 ?>
 

@@ -1,24 +1,12 @@
 <?php
 
-include("../App/header.php");
-include("../App/login.php");
+$this->view("includes/header");
+$this->view("includes/navBar");
 
 ?>
 
 <!-- Login Page -->
 
-
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gol Login Page</title>
-</head>
-
-<body class="bg-light">
 
     <section class="container" style="min-height:100vh;">
         <div class="row d-flex justify-content-center pt-5">
@@ -70,10 +58,6 @@ include("../App/login.php");
 
     <?php
 
-    include_once("../App/footer.php");
+    $this->view("includes/footer");
 
     ?>
-
-</body>
-
-</html>

@@ -20,15 +20,15 @@ define("BASE","http://localhost/E-Travel/");
 
 // Path of Assets
 
-define("ASSETS","http://localhost/E-Travel/Assests");
+define("ASSETS","http://localhost/E-Travel/assests");
 
 // Path of Controller
 
-define("CONTROLLER","private/Controller/");
+define("CONTROLLER","private/controller/");
 
 // Path of Model
 
-define("MODEL","private/Model/");
+define("MODEL","private/model/");
 
 // Path of View 
 
