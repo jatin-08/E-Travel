@@ -21,16 +21,16 @@
                         <a class="nav-link text-dark" href="http://localhost/E-Travel/reservation">Find Reservation</a>
                     </li>
                     <li class="nav-item open-sans">
-                        <a class="nav-link text-dark" href="#">Explore</a>
+                        <a class="nav-link text-dark" href="http://localhost/E-Travel/glance">Explore</a>
                     </li>
                     <li class="nav-item open-sans">
-                        <a class="nav-link text-dark" href="#">Gallery</a>
+                        <a class="nav-link text-dark" href="http://localhost/E-Travel/gallery">Gallery</a>
                     </li>
                     <li class="nav-item open-sans">
-                        <a class="nav-link text-dark" href="#">About Us</a>
+                        <a class="nav-link text-dark" href="http://localhost/E-Travel/about">About Us</a>
                     </li>
                     <li class="nav-item open-sans">
-                        <a class="nav-link text-dark" href="#">Contact Us</a>
+                        <a class="nav-link text-dark" href="http://localhost/E-Travel/contact">Contact Us</a>
                     </li>
                 </ul>
                 <ul class="navbar-nav ms-auto">

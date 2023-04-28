@@ -1,4 +1,4 @@
-<!-- Gallery Page -->
+<!-- About Page -->
 
 <?php
 
@@ -8,12 +8,12 @@ $this->view("includes/navBar");
 
 ?>
 
-<!-- Gallery Section Start -->
+<!-- About Section Start -->
 
 
 <h1 class="text-center m-5">Comming Soon</h1>
 
-<!-- Gallery Section End -->
+<!-- About Section End -->
 
 <?php
 
