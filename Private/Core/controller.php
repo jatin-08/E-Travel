@@ -1,8 +1,9 @@
 <?php
    class Controller
    {
-      public function view($view,$data = array()){
+      public function view($view,$data = []){
            extract($data);
+         //   echo VIEWS.$view.".view.php";
            
            if(file_exists(VIEWS.$view.".view.php"))
            {
@@ -10,7 +11,7 @@
             }else
             {
               require(VIEWS."404.view.php");
-           }
+           }   
       }
 
       public function load_model($model){

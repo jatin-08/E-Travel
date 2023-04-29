@@ -7,6 +7,7 @@ $this->view("includes/navBar");
 
 <!-- Login Page -->
 
+
     <section class="container" style="min-height:100vh;">
         <div class="row d-flex justify-content-center pt-5">
             <div class="col-10"></div>
@@ -16,7 +17,7 @@ $this->view("includes/navBar");
                 <div class="card border-0 shadow-sm">
                     <div class="row gap-0">
                         <div class="col-md-6">
-                            <img src="Assests\image\signin-imagee1.jpg" class="img-fluid rounded-start h-100"
+                            <img src="assests\image\signin-imagee1.jpg" class="img-fluid rounded-start h-100"
                                 alt="image">
                         </div>
                         <div class="col-md-6 pt-3">
@@ -35,9 +36,9 @@ $this->view("includes/navBar");
                                         <input type="password" name="password" class="form-control"
                                             id="exampleFormControlInput1" placeholder="At least 6 characters" required>
                                     </div>
-                                    <a href="http://localhost/E-Travel/private/signin-UI.php" class="text-decoration-none"
+                                    <a href="http://localhost/E-Travel/signup" class="text-decoration-none"
                                         style="font-size: 13px;">Forget Password?</a>
-                                    <p class="card-text">New User?<a href="http://localhost/E-Travel/App/signin-UI.php"
+                                    <p class="card-text">New User?<a href="http://localhost/E-Travel/signup"
                                             class="text-decoration-none">Sign Up</a></p>
                                     <p class="card-text">By creating an account or logging in, you agree to E-Travel <a
                                             href="#" class="text-decoration-none">Conditions
@@ -57,6 +58,6 @@ $this->view("includes/navBar");
 
     <?php
 
-$this->view("includes/footer");
+    $this->view("includes/footer");
 
     ?>

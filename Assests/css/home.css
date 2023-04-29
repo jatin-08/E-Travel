@@ -73,6 +73,13 @@
 
 /* PACKAGE SECTION */
 
+/* .card{
+   transition: all .3s ease-in-out;
+}
+.card:hover{
+    transform: scale(1.1);
+} */
+
 .btn-blue {
     background-color: #3282AD;
     color: #ffff;
@@ -130,10 +137,14 @@
 
 /* CLIENT REVIEWS SECTION   */
 
-.client {
+/* .client {
     height: 350px;
     width: 250px;
+    transition: all .3s ease-in-out;
 }
+.client:hover{
+    transform: scale(0.8);
+} */
 
 .client-img {
     height: 70px;
