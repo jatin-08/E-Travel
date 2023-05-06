@@ -45,7 +45,6 @@ class Model extends Database
     // Insert record into database
     public function insert($data)
     {
-
         // remove unwanted columns
         if (property_exists($this, 'allowedColumns')) {
             foreach ($data as $key => $column) {
@@ -55,7 +54,6 @@ class Model extends Database
             }
         }
 
-
         // run function before insert
         if (property_exists($this, 'beforeInsert')) {
             foreach ($this->beforeInsert as $func) {
@@ -63,6 +61,8 @@ class Model extends Database
             }
         }
 
+
+        
 
         $keys = array_keys($data);
         $column = implode(',', $keys);

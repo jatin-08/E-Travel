@@ -28,12 +28,12 @@ $this->view("includes/navBar");
 
                                     <div class="mb-3">
                                         <label for="exampleFormControlInput1" class="form-label">Email</label>
-                                        <input type="email" name="email" class="form-control"
+                                        <input type="email" name="uemail" class="form-control"
                                             id="exampleFormControlInput1" placeholder="abcd123@gmail.com" required>
                                     </div>
                                     <div class="mb-3">
                                         <label for="exampleFormControlInput1" class="form-label">Password</label>
-                                        <input type="password" name="password" class="form-control"
+                                        <input type="password" name="upasswd" class="form-control"
                                             id="exampleFormControlInput1" placeholder="At least 6 characters" required>
                                     </div>
                                     <a href="http://localhost/E-Travel/signup" class="text-decoration-none"

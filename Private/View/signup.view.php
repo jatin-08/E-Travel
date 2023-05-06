@@ -3,6 +3,10 @@
 
 <?php
 
+if(count($errors)>0){
+    show($errors);
+}
+
 $this->view("includes/header");
 $this->view("includes/navBar");
 
@@ -29,21 +33,21 @@ $this->view("includes/navBar");
 
                                 <div class="mb-3">
                                     <label class="form-label">Name</label>
-                                    <input type="text" name="name" class="form-control" placeholder="Enter your name">
+                                    <input type="text" name="uname" class="form-control" placeholder="Enter your name">
                                 </div>
                                 <div class="mb-3">
                                     <label class="form-label">Email</label>
-                                    <input type="email" name="email" class="form-control"
+                                    <input type="email" name="uemail" class="form-control"
                                         placeholder="abcd123@gmail.com">
                                 </div>
                                 <div class="mb-3">
                                     <label class="form-label">Password</label>
-                                    <input type="password" name="password" class="form-control"
+                                    <input type="password" name="upasswd" class="form-control"
                                         placeholder="At least 6 characters">
                                 </div>
                                 <div class="mb-3">
                                     <label class="form-label">Confirm Password</label>
-                                    <input type="password" name="conpassword" class="form-control"
+                                    <input type="password" name="ucofpasswd" class="form-control"
                                         placeholder="At least 6 characters">
                                 </div>
                                 <p class="card-text">Already have an account?<a href="http://localhost/E-Travel/login"

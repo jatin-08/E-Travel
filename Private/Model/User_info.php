@@ -5,11 +5,9 @@ class User_info extends Model
 
     // $allowedColumns -> The name written inside only those value are taken from the database and reflected in the database.
     protected $allowedColumns = [
-        'uid',
         'uname',
         'uemail',
-        'upasswd',
-        'ucofpasswd'
+        'upasswd'
     ];
 
     // $beforeInsert -> It will convert the password into the hash value before it insert into the database.
@@ -39,7 +37,7 @@ class User_info extends Model
             }
         }
 
-        if (isset($data['upasswd'])) {
+        if (isset($data['upasswd'])){
             if (($data['upasswd'] != $data['ucofpasswd']) || empty($data['upasswd'])) {
                 $this->errors['upasswd'] = "Password not matched.";
             }
@@ -54,8 +52,14 @@ class User_info extends Model
         }
         return false;
     }
+
+    public function hash_password($data)
+    {
+        $data['upasswd'] = password_hash($data['upasswd'], PASSWORD_DEFAULT);
+        return $data;
+    }
 }
 
 
 
-?>
+?>           
