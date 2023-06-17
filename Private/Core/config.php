@@ -34,4 +34,8 @@ define("MODEL","private/model/");
 
 define("VIEWS","private/view/");
 
+// Path of Admin
+
+define("ADMINS","private/view/admin/");
+
 ?>

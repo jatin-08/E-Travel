@@ -1,0 +1,59 @@
+/* Style CSS for Admin Pannel */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* .form-control:focus{
+   border-color: var(--green-color);
+   outline: 0;
+   box-shadow: 0 0 0 0.25rem var(--light-green-color);
+} */
+
+/* Side Bar Section */
+
+
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sidebar {
+    flex-basis: 250px;
+    flex-shrink: 0;
+}
+
+.sidebar-content {
+    width: 250px;
+    height: 100vh;
+}
+
+.content {
+    flex: 1 0 auto;
+}
+
+.mynav {
+    top: 0;
+}
+
+.logoIcon a span:nth-child(1) {
+    display: block;
+    height: 40px;
+    width: 40px;
+    line-height: 38px;
+    background-color: var(--green-color);
+}
+
+.myynav-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.myynav-list li{
+    padding: 10px;
+    margin: 10px;
+}

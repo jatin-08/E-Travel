@@ -8,6 +8,8 @@ class Controller
 
       if (file_exists(VIEWS . $view . ".view.php")) {
          require(VIEWS . $view . ".view.php");
+      } elseif (file_exists(ADMINS . $view . ".view.php")) {
+         require(ADMINS . $view . ".view.php");
       } else {
          require(VIEWS . "404.view.php");
       }
